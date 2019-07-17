@@ -49,10 +49,11 @@
   background-color: #4da408;
 }
 
-.logo.kindergarten .img {
+.logo.kindergarten .img img {
   float: left;
   display: inline-block;
   cursor: pointer;
+  width: 120px;
 }
 
 .logo.kindergarten .button {
@@ -62,6 +63,7 @@
   background-color: #f2cd12;
   display: inline-block;
   cursor: pointer;
+  margin-top: 8px;
 }
 
 .logo.kindergarten .button:hover {
@@ -579,7 +581,7 @@
 
 /* ---End Page Elementary */
 
-/*  */
+/* Page Junior*/
 /*Section logo global */
 .logo.junior .img img {
   float: left;
@@ -627,5 +629,40 @@
   padding-bottom: 10px;
   margin-bottom: 30px;
 }
+
+.news h4 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.news .card {
+  border: none;
+  border-radius: 0;
+}
+
+.news .card img {
+  border-radius: 0;
+}
+
+.news .card .card-body {
+  background-color: white;
+  border-top-right-radius: 30px;
+  margin-top: -30px;
+  padding-left: 0;
+}
+
+.news .card .card-body h6 {
+  margin-top: 5px;
+}
+
+.news .card .card-body span {
+  font-size: 12px;
+}
+
+.news .card .card-body p {
+  font-size: 15px;
+}
+
 
 /* ---End Page Junior */
