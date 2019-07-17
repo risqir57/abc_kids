@@ -1,5 +1,5 @@
 /* Responsive */
-@media(min-width:320px) and (max-width:575px) {
+@media (min-width: 320px) and (max-width: 575px) {
     /*---Page Kindergarten */
 
     /* section career */
@@ -15,6 +15,31 @@
     }
 
     /* end section news */
+
+    /* section galerry */
+    .galerry .tab-gallery .tab-content .box-img img {
+        width: 100%;
+    }
+
+    .galerry h6:before,
+    .galerry h6:after {
+        display: none;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img {
+        text-align: center;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img:before {
+        right: 0px;
+        left: 0px;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img::after {
+        left: 45%;
+    }
+
+    /* end section gallery */
 
     /* section footer */
     .footer h5.paragraf-information {
@@ -47,18 +72,16 @@
         padding-right: 0px;
     }
 
-
     .content .box-content .box-paragraf p {
         text-indent: 0px;
     }
 
     /* End section content */
 
-
     /* ---End Page Elementary */
 }
 
-@media(min-width:576px) and (max-width:767px) {
+@media (min-width: 576px) and (max-width: 767px) {
     /*---Page Kindergarten */
 
     /* section career */
@@ -74,9 +97,23 @@
     }
 
     /* end section news */
+    /* section gallery */
+    .galerry .tab-gallery .tab-content .box-img {
+        text-align: center;
+    }
 
-    /*---Page Kindergarten */
+    .galerry .tab-gallery .tab-content .box-img:before {
+        right: 70px;
+        left: 70px;
+    }
 
+    .galerry .tab-gallery .tab-content .box-img::after {
+        left: 45%;
+    }
+
+    /* End ection gallery */
+
+    /*---End Page Kindergarten */
 
     /* ---Page Elementary */
     /* section content */
@@ -93,7 +130,7 @@
     /* ---End Page Elementary */
 }
 
-@media(min-width:768px) and (max-width:991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     /*---Page Kindergarten */
 
     /* section career */
@@ -102,6 +139,22 @@
     }
 
     /* section career */
+
+    /* section gallery */
+    .galerry .tab-gallery .tab-content .box-img {
+        text-align: center;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img:before {
+        right: -20px;
+        left: 0px;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img::after {
+        left: 50%;
+    }
+
+    /* End ection gallery */
 
     /*---Page Kindergarten */
     /*---Page Elementary */
@@ -119,7 +172,25 @@
     /* ---End Page Elementary */
 }
 
-@media(min-width:992px) and (max-width:1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*---Page Kindergarten */
+    /* section gallery */
+    .galerry .tab-gallery .tab-content .box-img {
+        text-align: center;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img:before {
+        right: 50px;
+        left: 40px;
+    }
+
+    .galerry .tab-gallery .tab-content .box-img::after {
+        left: 45%;
+    }
+
+    /* End ection gallery */
+    /*---End Page Kindergarten */
     /*---Page Elementary */
     /* section content */
 
@@ -132,4 +203,4 @@
     /* ---End Page Elementary */
 }
 
-@media(min-width:1200px) {}
+@media (min-width: 1200px) {}
