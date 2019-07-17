@@ -1,0 +1,119 @@
+/* Responsive */
+@media(min-width:320px) and (max-width:575px) {
+    /*---Page Kindergarten */
+
+    /* section career */
+    .career {
+        height: 980px;
+    }
+
+    /* section career */
+
+    /* section footer */
+    .footer h5.paragraf-information {
+        margin-bottom: 60px;
+    }
+
+    /* section footer */
+
+    /* section copyright */
+    .copyright h6 {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .copyright .sosial-media {
+        float: none !important;
+    }
+
+    /* section copyright */
+
+    /*---Page Kindergarten */
+
+    /* ---Page Elementary */
+    /* section content */
+    .content .box-content .img img {
+        height: 300px;
+    }
+
+    .content .box-content .box-paragraf {
+        padding-right: 0px;
+    }
+
+
+    .content .box-content .box-paragraf p {
+        text-indent: 0px;
+    }
+
+    /* End section content */
+
+
+    /* ---End Page Elementary */
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    /*---Page Kindergarten */
+
+    /* section career */
+    .career {
+        height: 780px;
+    }
+
+    /* section career */
+
+    /*---Page Kindergarten */
+    /* ---Page Elementary */
+    /* section content */
+    .content .box-content .img img {
+        height: 400px;
+    }
+
+    .content .box-content .box-paragraf {
+        padding-right: 0px;
+    }
+
+    /* End section content */
+
+    /* ---End Page Elementary */
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    /*---Page Kindergarten */
+
+    /* section career */
+    .career {
+        height: 780px;
+    }
+
+    /* section career */
+
+    /*---Page Kindergarten */
+    /*---Page Elementary */
+    /* section content */
+    .content .box-content .img img {
+        height: 400px;
+    }
+
+    .content .box-content .box-paragraf {
+        padding-right: 0px;
+    }
+
+    /* End section content */
+
+    /* ---End Page Elementary */
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    /*---Page Elementary */
+    /* section content */
+
+    .content .box-content .box-paragraf {
+        padding-right: 0px;
+    }
+
+    /* End section content */
+
+    /* ---End Page Elementary */
+}
+
+@media(min-width:1200px) {}
