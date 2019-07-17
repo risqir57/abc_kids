@@ -7,14 +7,21 @@
         height: 980px;
     }
 
-    /* section career */
+    /* end section career */
+
+    /* section news */
+    .news .card {
+        margin: 0 auto;
+    }
+
+    /* end section news */
 
     /* section footer */
     .footer h5.paragraf-information {
         margin-bottom: 60px;
     }
 
-    /* section footer */
+    /* end section footer */
 
     /* section copyright */
     .copyright h6 {
@@ -26,7 +33,7 @@
         float: none !important;
     }
 
-    /* section copyright */
+    /* end section copyright */
 
     /*---Page Kindergarten */
 
@@ -59,9 +66,18 @@
         height: 780px;
     }
 
-    /* section career */
+    /* end section career */
+
+    /* section news */
+    .news .card {
+        margin: 0 auto;
+    }
+
+    /* end section news */
 
     /*---Page Kindergarten */
+
+
     /* ---Page Elementary */
     /* section content */
     .content .box-content .img img {
