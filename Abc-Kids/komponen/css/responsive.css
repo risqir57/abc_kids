@@ -154,6 +154,14 @@
         left: 50%;
     }
 
+    .galerry h6:after {
+        right: 150px !important;
+    }
+
+    .galerry h6::before {
+        left: 150px !important;
+    }
+
     /* End ection gallery */
 
     /*---Page Kindergarten */
@@ -188,6 +196,15 @@
     .galerry .tab-gallery .tab-content .box-img::after {
         left: 45%;
     }
+
+    .galerry h6:after {
+        right: 270px !important;
+    }
+
+    .galerry h6::before {
+        left: 270px !important;
+    }
+
 
     /* End ection gallery */
     /*---End Page Kindergarten */
