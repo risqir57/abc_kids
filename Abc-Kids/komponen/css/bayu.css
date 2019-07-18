@@ -160,7 +160,7 @@
 }
 
 .galerry h6:before {
-  content: '';
+  content: "";
   width: 100px;
   height: 2px;
   background-color: #212529;
@@ -171,7 +171,7 @@
 }
 
 .galerry h6:after {
-  content: '';
+  content: "";
   width: 100px;
   height: 2px;
   background-color: #212529;
@@ -224,7 +224,7 @@
 }
 
 .galerry .tab-gallery .tab-content .box-img:before {
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   right: 0;
@@ -448,6 +448,45 @@
 
 /* End Section ourpatner */
 
+/* Section quotes */
+.quotes {
+  background-image: url(../image/kindergarten/Quotes/animal.jpg);
+}
+
+.quotes {
+  background-repeat: repeat;
+  background-size: 50%;
+}
+
+.quotes .bg-child img {
+  width: 100%;
+  display: inline-block;
+  border-top-right-radius: 50px;
+}
+
+.quotes .bg-animals {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.quotes .bg-animals .icon-text {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.quotes .bg-animals .icon-text .icon-quote {
+  float: left;
+}
+
+.quotes .bg-animals .icon-text p {
+  margin-left: 50px;
+  line-height: 1.3;
+}
+
+/* End Section quotes */
+
 /* Section footer */
 .footer {
   background-color: #363b4e;
@@ -589,7 +628,6 @@
       padding-left: 30px;
   }
 } */
-
 
 /* ---End Page Kindergerten */
 
