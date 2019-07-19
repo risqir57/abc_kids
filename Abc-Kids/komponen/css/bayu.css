@@ -118,6 +118,7 @@
 .jumbotron.kindergarten {
   background-image: url(../image/kindergarten/Jumbotron/download.jpg);
   border-radius: 0px;
+  background-size: cover;
 }
 
 /* End Section jumbotron */
@@ -361,6 +362,7 @@
 .galerry .tab-gallery .nav li.nav-item .nav-link.active {
   background-color: #72eab7;
   padding: 10px 0;
+  color: white;
 }
 
 .galerry .tab-gallery .tab-content .box-img {
@@ -1030,3 +1032,96 @@
 /* ---End Page Junior */
 
 /* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Page Junior */
+
+/* section jumbotron */
+.jumbotron.junior {
+  background-image: url(../image/junior/jumbotron/carafun.jpg);
+  border-radius: 0px;
+  background-size: cover;
+  background-position-x: -150px;
+}
+
+/* End section jumbotron */
+/* section visi misi */
+.visi-misi.junior .cirle-paragraf .circle {
+  float: left;
+  width: 35px;
+  height: 35px;
+  background-color: #5266C6;
+  border: 3px solid #E4FB17;
+  border-radius: 20px;
+}
+
+/* End section visi misi */
+
+/* section eskul */
+.eskul.junior .box-litle {
+  background-color: #5266C6;
+  background-image: none;
+  height: 400px;
+  border-top-left-radius: 40px;
+  background-size: cover;
+}
+
+.eskul.junior .box-litle:before {
+  background-color: inherit;
+}
+
+.eskul.junior .owl-carousel .owl-nav button.owl-prev,
+.eskul.junior .owl-carousel .owl-nav button.owl-next {
+  background-color: #4A4444 !important;
+  cursor: pointer;
+}
+
+.eskul.junior .owl-carousel .owl-nav button:hover {
+  background-color: #5266C6 !important;
+  outline: none;
+}
+
+/* End section eskul */
+
+/* section gallery */
+.galerry.junior {
+  background-image: none;
+  background-color: white;
+}
+
+.galerry.junior .tab-gallery .nav li.nav-item .nav-link.active {
+  background-color: #5266C6;
+  padding: 10px 0;
+}
+
+.galerry.junior .tab-gallery .tab-content .box-img:before {
+  background-color: rgba(66, 84, 155, 0.7);
+  border: none;
+}
+
+.galerry.junior .tab-gallery .nav li.nav-item {
+  border: 1px solid #5266C6;
+}
+
+/* End section gallery */
+
+/* section career */
+.career.junior {
+  background-image: none;
+  background-color: #5266C6;
+}
+
+.career.junior .cirle-paragraf .circle {
+  background-color: #496cce;
+}
+
+/* End section career */
+
+/* quotes */
+.quotes.junior {
+  background-image: none;
+  background-color: #5266C6;
+}
+
+/* End quotes */
+
+/* End Page Junior */
