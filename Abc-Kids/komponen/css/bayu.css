@@ -16,6 +16,16 @@
   color: #FFFF00;
 }
 
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix {
+  padding-top: 70px;
+}
+
 .mr-not {
   margin-right: 0px !important;
 }
