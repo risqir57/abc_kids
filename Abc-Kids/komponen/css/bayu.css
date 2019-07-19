@@ -13,8 +13,18 @@
   color: #f2f3f5;
   color: #72eab7;
   color: #5266c6;
+  color: #FFFF00;
 }
 
+.mr-not {
+  margin-right: 0px !important;
+}
+
+.pr-not {
+  padding-right: 0px !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
 .wrapper-padding {
   padding: 60px 0px;
 }
@@ -141,6 +151,143 @@
 }
 
 /* End Section visi misi */
+
+/* Section eksul */
+.eskul {
+  height: 400px;
+  background-color: #F2F3F5;
+}
+
+.eskul .box-litle {
+  background-image: url(../image/kindergarten/Eksul/box-litle.jpg);
+  height: 400px;
+  border-top-left-radius: 40px;
+  background-size: cover;
+}
+
+.eskul {
+  height: 400px;
+  background-color: #F2F3F5;
+}
+
+.eskul .owl-carousel .owl-nav button.owl-prev,
+.eskul .owl-carousel .owl-nav button.owl-next {
+  padding: 8px 14px !important;
+  background-color: #72eab7 !important;
+  color: white;
+  border-radius: 20px !important;
+  text-align: center;
+}
+
+.eskul .owl-carousel .owl-nav button:hover {
+  background-color: #5266c6 !important;
+  outline: none;
+}
+
+.eskul .box-big {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.eskul .box-big .box-content {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.eskul .box-big .box-content .text-icon p {
+  font-size: 20px;
+  width: 160px;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  color: #4a4444;
+}
+
+.eskul .box-big .box-content .text-icon .icon {
+  border: 5px solid white;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: #A9DCDB;
+}
+
+.eskul .box-big .box-content .text-icon .icon i {
+  text-align: center;
+  display: block;
+  color: #5266c6;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.eskul .box-big .box-content .box-paragraf p {
+  color: #7a7a7a;
+  font-size: 14px;
+}
+
+.eskul .box-litle {
+  height: 400px;
+  border-top-left-radius: 40px;
+  background-size: cover;
+  position: relative;
+}
+
+.eskul .box-litle:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(76, 236, 196, 0.8);
+  border-top-left-radius: 40px;
+}
+
+.eskul .box-litle .box-text {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  top: 35%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.eskul .box-litle .box-text span {
+  text-align: center;
+  display: block;
+  letter-spacing: 5px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.eskul .box-litle .box-text span:before {
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 100px;
+  background-color: white;
+  margin-right: 20px;
+  position: relative;
+  bottom: 5px;
+}
+
+.eskul .box-litle .box-text h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eskul .box-litle .box-text p {
+  padding-left: 30px;
+  font-size: 17px;
+}
+
+/* End Section eksul */
 
 /* Section galerry */
 .galerry {
@@ -448,6 +595,123 @@
 
 /* End Section ourpatner */
 
+/* Section information */
+.information {
+  background-image: url(../image/kindergarten/Information/big.jpg)
+}
+
+.box-little {
+  background-image: url(../image/kindergarten/Information/little.jpg);
+}
+
+.information {
+  height: 500px;
+  background-size: 85%;
+}
+
+.information .box-little {
+  height: 500px;
+  border-top-right-radius: 60px;
+  position: relative;
+  background-size: 95%;
+}
+
+.information .box-little:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-top-right-radius: 60px;
+  background-color: rgba(35, 221, 188, 0.7);
+}
+
+.information .box-little .content {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  padding-right: 100px;
+}
+
+.information .box-little .content span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.information .box-little .content span:before {
+  content: '';
+  width: 80px;
+  height: 1px;
+  margin-right: 10px;
+  position: relative;
+  top: -4px;
+  background-color: white;
+  display: inline-block;
+}
+
+.information .box-little .content h4 {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.information .owl-carousel {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.information .owl-carousel .box-big {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  padding: 70px 10px;
+  border-radius: 20px;
+}
+
+.information .owl-carousel .box-big.bg-yellow {
+  background-color: #f2cd12;
+}
+
+.information .owl-carousel .box-big.bg-blue {
+  background-color: #448AFF;
+}
+
+.information .owl-carousel .box-big .content {
+  width: 300px;
+}
+
+.information .owl-carousel .box-big .content h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.information .owl-carousel .box-big .content p {
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.information .owl-carousel .owl-nav button.owl-prev,
+.information .owl-carousel .owl-nav button.owl-next {
+  padding: 8px 14px !important;
+  background-color: #72eab7 !important;
+  color: white;
+  border-radius: 20px !important;
+  text-align: center;
+}
+
+.information .owl-carousel .owl-nav button:hover {
+  background-color: #5266c6 !important;
+  outline: none;
+}
+
+/* End Section information */
+
 /* Section quotes */
 .quotes {
   background-image: url(../image/kindergarten/Quotes/animal.jpg);
@@ -564,72 +828,9 @@
 
 /* End Section copyright */
 
-/* .eksul {
-  border: 1px solid;
-  background-color: #F2F3F5;
-  position: relative;
-  .box-eksul {
-      width: 60%;
-      float: left;
-      margin-left: 80px;
-      .owl-carousel {
-          .box-owl-eksul{
-              width: 250px;
-              border: 1px solid red;  
-              .title-icon{
-                  display: block;
-                  border: 1px solid;
-                  .title{
-                      float: left;
-                      color: red;
-                      width: 150px;
-                  }
-              }
-              .paragraf{
-                  color: white;
-                  float: left;
-              }
-          }
-          .owl-nav {
-              top: -80px;
-              display: block !important;
-              position: relative !important;
-              button.owl-prev,
-              button.owl-next {
-                  padding: 8px 14px !important;
-                  background-color: #72EAB7 !important;
-                  color: white;
-                  border-radius: 20px !important;
-                  text-align: center;
-                  &:hover {
-                      background-color: #c5a60b !important;
-                      outline: none;
-                  }
-              }
-              button.owl-prev {
-                  left: -50px;
-                  position: absolute;
-              }
-              button.owl-next {
-                  right: -50px;
-                  position: absolute;
-              }
-          }
-      }
-  }
-  .info-more {
-      background-color: rgba(29,233,182, 100);
-      width: 30%;
-      height: 100%;
-      position: absolute;
-      float: left;
-      right: 0;
-      border-top-left-radius: 40px;
-      padding-left: 30px;
-  }
-} */
-
 /* ---End Page Kindergerten */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
 
 /* ---Page Elementary */
 
@@ -741,7 +942,9 @@
 
 /* ---End Page Elementary */
 
-/* Page Junior*/
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* ---Page Junior*/
 /*Section logo global */
 .logo.junior .img img {
   float: left;
@@ -825,3 +1028,5 @@
 }
 
 /* ---End Page Junior */
+
+/* ------------------------------------------------------------------------------------------------------------------- */

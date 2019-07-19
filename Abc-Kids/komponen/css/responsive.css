@@ -49,6 +49,30 @@
 
     /* end section quotes */
 
+    /* section information */
+    .information {
+        height: 730px;
+    }
+
+    .information .box-little {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .information .owl-carousel .box-big .content {
+        width: 260px;
+    }
+
+    .information .owl-carousel .box-big {
+        width: 280px;
+    }
+
+    .information .box-little {
+        height: 350px;
+    }
+
+    /* end section information */
+
     /* section footer */
     .footer h5.paragraf-information {
         margin-bottom: 60px;
@@ -89,6 +113,8 @@
     /* ---End Page Elementary */
 }
 
+/* ------------------------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 576px) and (max-width: 767px) {
     /*---Page Kindergarten */
 
@@ -128,6 +154,18 @@
 
     /* end section quotes */
 
+    /* section information */
+    .information {
+        height: 560px;
+    }
+
+    .information .box-little {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    /* end section information */
+
     /*---End Page Kindergarten */
 
     /* ---Page Elementary */
@@ -144,6 +182,8 @@
 
     /* ---End Page Elementary */
 }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 991px) {
     /*---Page Kindergarten */
@@ -186,7 +226,18 @@
 
     /* end section quotes */
 
-    /*---Page Kindergarten */
+    /* section information */
+    .information {
+        height: 560px;
+    }
+
+    .information .box-little {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    /* end section information */
+
     /*---Page Elementary */
     /* section content */
     .content .box-content .img img {
@@ -201,6 +252,9 @@
 
     /* ---End Page Elementary */
 }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -249,5 +303,7 @@
 
     /* ---End Page Elementary */
 }
+
+/* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 1200px) {}
