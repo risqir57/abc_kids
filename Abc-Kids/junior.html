@@ -246,32 +246,32 @@
             <div class="row">
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -280,32 +280,32 @@
             <div class="row">
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="box-img">
-                  <img src="komponen/image/kindergarten/Gallery/DSC04056.jpg" alt="">
+                  <img src="komponen/image/junior/gallery/DSC03508.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -315,6 +315,34 @@
     </div>
   </section>
   <!-- End Section galery -->
+
+  <section class="achievement clearfix">
+    <div class="row mr-not">
+      <div class="col-md-12 col-lg-4 col-xl-4 pr-not">
+        <div class="box-little">
+          <div class="content">
+            <h4>"ACHIEVEMENTS"</h4>
+            <p>These are some of the achievements we've ever won.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-7 col-xl-7">
+        <div class="owl-carousel owl-theme owl-achievement">
+          <div class="box-image">
+            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+          </div>
+          <div class="box-image">
+            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+          </div>
+          <div class="box-image">
+            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
 
 
   <!-- Section ourteam -->
@@ -480,10 +508,6 @@
   </section>
 
   <!-- End Section ourpatners -->
-
-  <!-- Section information -->
-
-  <!-- End Section information -->
 
   <!-- Section quotes -->
   <section class="quotes junior clearfix">
@@ -676,6 +700,30 @@
       }
     });
     // End Eskul
+
+    // Achievement
+    var owl = $('.owl-carousel.owl-achievement');
+    owl.owlCarousel({
+      loop: true,
+      dots: true,
+      nav: true,
+      margin: 0,
+      navText: ['<span class="fas fa-chevron-left"></span>',
+        '<span class="fas fa-chevron-right"></span>'
+      ],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        992: {
+          items: 1
+        },
+      }
+    });
+    // End Achievement
 
   });
 </script>

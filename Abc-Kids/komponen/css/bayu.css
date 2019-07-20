@@ -376,7 +376,7 @@
   bottom: 0;
   position: absolute;
   background-color: rgba(37, 170, 128, 0.7);
-  border-top-right-radius: 50px;
+  border-top-right-radius: 65px;
   border: 10px solid white;
   opacity: 0;
 }
@@ -1011,11 +1011,124 @@
   font-size: 15px;
 }
 
-/* ---End Page Junior */
+/*End Section content */
+/* Section achievement */
+.achievement {
+  background-image: url(../image/kindergarten/achievement/big.jpg)
+}
 
-/* ------------------------------------------------------------------------------------------------------------------- */
+.achievement .box-little {
+  background-color: #5266C6;
+  background-image: none;
+}
 
-/* Page Junior */
+.achievement {
+  height: 500px;
+  background-size: 85%;
+  background-color: #F4F5FC;
+}
+
+.achievement .box-little {
+  height: 500px;
+  border-top-right-radius: 60px;
+  position: relative;
+  background-size: 95%;
+}
+
+
+.achievement .box-little .content {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 100px;
+}
+
+.achievement .box-little .content span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.achievement .box-little .content span:before {
+  content: '';
+  width: 80px;
+  height: 1px;
+  margin-right: 10px;
+  position: relative;
+  top: -4px;
+  background-color: white;
+  display: inline-block;
+}
+
+.achievement .box-little .content h4 {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+
+.achievement .box-little .content p {
+  font-size: 24px;
+}
+
+.achievement .owl-carousel {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.achievement .owl-carousel .box-image img {
+  width: 80%;
+  height: 380px;
+  margin: auto;
+  margin-bottom: 8px;
+  box-shadow: 7px 7px 10px rgba(208, 209, 215, 0.7);
+}
+
+.achievement .owl-carousel .owl-nav button.owl-prev,
+.achievement .owl-carousel .owl-nav button.owl-next {
+  padding: 8px 14px !important;
+  background-color: #72eab7 !important;
+  color: white;
+  border-radius: 20px !important;
+  text-align: center;
+}
+
+.achievement .owl-carousel .owl-nav button.owl-next {
+  top: 0px;
+  right: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.achievement .owl-carousel .owl-nav button.owl-prev {
+  left: 50px;
+  top: 0px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.achievement .owl-carousel .owl-nav button:hover {
+  background-color: #5266c6 !important;
+  outline: none;
+}
+
+.achievement .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots span {
+  background: #5266C6;
+  width: 30px;
+}
+
+.achievement .owl-theme .owl-dots .owl-dot span {
+  margin: 5px 3px;
+  background: white;
+  border: 1px solid #5266C6;
+}
+
+/* End Section achievement */
 /* section jumbotron */
 .jumbotron.junior {
   background-image: url(../image/junior/jumbotron/carafun.jpg);
@@ -1100,11 +1213,11 @@
 }
 
 /* End quotes */
-/* End Page Junior */
+/* ---End Page Junior */
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
-/*Page Elementary */
+/*---Page Elementary */
 /* section logo */
 .logo.elementary .button {
   background-color: #B6BD39;

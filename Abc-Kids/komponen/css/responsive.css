@@ -183,6 +183,36 @@
     }
 
     /* end section jumbotron */
+    /* section achi */
+    .achievement {
+        height: 550px;
+    }
+
+    .achievement .box-little {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .achievement .owl-carousel .box-image img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-prev,
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        top: 40%;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        right: 10px;
+    }
+
+
+    .achievement .owl-carousel .owl-nav button.owl-prev {
+        left: 10px;
+    }
+
+    /* end section achi */
     /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;
@@ -318,6 +348,36 @@
     }
 
     /* end section jumbotron */
+    /* section achi */
+    .achievement {
+        height: 550px;
+    }
+
+    .achievement .box-little {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .achievement .owl-carousel .box-image img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-prev,
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        top: 40%;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        right: 10px;
+    }
+
+
+    .achievement .owl-carousel .owl-nav button.owl-prev {
+        left: 10px;
+    }
+
+    /* end section achi */
     /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;
@@ -460,6 +520,36 @@
     }
 
     /* end section jumbotron */
+    /* section achi */
+    .achievement {
+        height: 550px;
+    }
+
+    .achievement .box-little {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .achievement .owl-carousel .box-image img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-prev,
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        top: 40%;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        right: 10px;
+    }
+
+
+    .achievement .owl-carousel .owl-nav button.owl-prev {
+        left: 10px;
+    }
+
+    /* end section achi */
     /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;
@@ -552,6 +642,36 @@
     }
 
     /* end section jumbotron */
+    /* section achi */
+    .achievement {
+        height: 320px;
+    }
+
+    .achievement .box-little {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .achievement .owl-carousel .box-image img {
+        width: 400px;
+        height: 260px;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-prev,
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        top: 40%;
+    }
+
+    .achievement .owl-carousel .owl-nav button.owl-next {
+        right: 10px;
+    }
+
+
+    .achievement .owl-carousel .owl-nav button.owl-prev {
+        left: 10px;
+    }
+
+    /* end section achi */
     /* ---End Page junior */
 }
 
