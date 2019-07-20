@@ -18,11 +18,32 @@
 </head>
 
 <body>
+
+    <!-- Section sidebar -->
+    <div id="sidebar" class="sidebar clearfix">
+        <div class="img-icon clearfix">
+            <div class="box-img">
+                <a href="#home"><img src="komponen/image/junior/logo/brightonlogo.png" alt="">
+            </div></a>
+            <div class="icon">
+                <i id="close-sidebar" class="fas fa-times-circle"></i>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li><a href="#artikel">ARTICLE</a></li>
+                <li><a href="#information">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Section sidebar -->
+
     <!-- Section logo global -->
     <section class="logo junior clearfix">
         <div class="container">
             <div class="img">
-                <img src="komponen/image/junior/logo/brightonlogo.png" alt="">
+                <img id="home" src="komponen/image/junior/logo/brightonlogo.png" alt="">
             </div>
             <a class="button">
                 Contact Us
@@ -36,7 +57,7 @@
     <section class="menu-bar junior">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <i class="material-icons">sort</i>
+                <i id="open-sidebar" class="material-icons">sort</i>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -58,7 +79,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-xl-9">
-                    <div class="box-content">
+                    <div class="box-content" id="artikel">
                         <div class="img">
                             <img src="komponen/image/elementary/content/content.jpg" alt="">
                         </div>
@@ -176,7 +197,7 @@
     <!-- End Section content -->
 
     <!-- Section footer -->
-    <section class="wrapper-padding footer kindergarten">
+    <section class="wrapper-padding footer kindergarten" id="information">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6">
@@ -269,6 +290,23 @@
             }
         });
         // Ourpatner
+
+        $(window).scroll(function () {
+            var sticky = $('.menu-bar'),
+                scroll = $(window).scrollTop();
+
+            if (scroll >= 40) sticky.addClass('fixed');
+            else sticky.removeClass('fixed');
+        });
+
+        // Sidebar
+        $('#open-sidebar').click(function () {
+            $('#sidebar').show();
+        });
+        $('#close-sidebar').click(function () {
+            $('#sidebar').hide();
+        });
+        // End Sidebar
     });
 </script>
 
