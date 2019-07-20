@@ -129,6 +129,7 @@
   background-image: url(../image/kindergarten/Jumbotron/download.jpg);
   border-radius: 0px;
   background-size: cover;
+  height: 600px;
 }
 
 /* End Section jumbotron */
@@ -861,7 +862,7 @@
 .menu-bar.elementary .navbar-nav .nav-item.bottom-active:after {
   content: "";
   height: 2px;
-  width: 150px;
+  width: 120px;
   background-color: #f2cd12;
   margin-top: 5px;
   margin-left: -15px;
@@ -1050,7 +1051,7 @@
   background-image: url(../image/junior/jumbotron/carafun.jpg);
   border-radius: 0px;
   background-size: cover;
-  background-position-x: -150px;
+  height: 600px;
 }
 
 /* End section jumbotron */
@@ -1135,3 +1136,121 @@
 /* End quotes */
 
 /* End Page Junior */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/*Page Elementary */
+/* section logo */
+.logo.elementary .button {
+  background-color: #B6BD39;
+}
+
+.logo.elementary .button:hover {
+  background-color: #f2cd12;
+}
+
+/* End section logo */
+/* section jumbotron */
+.jumbotron.elementary {
+  background-image: url(../image/elementary/content/back.jpg);
+  border-radius: 0px;
+  background-size: cover;
+  height: 600px;
+}
+
+/* section jumbotron */
+/* section visimisi  */
+.visi-misi.elementary .cirle-paragraf .circle {
+  background-color: #f2cd12;
+  border: 3px solid #273051;
+}
+
+/* section visimisi  */
+/* section eskul */
+.eskul.elementary .box-litle {
+  background-color: #f2cd12;
+  background-image: none;
+}
+
+.eskul .box-litle:before {
+  background-color: #f2cd12;
+}
+
+.eskul.elementary .owl-carousel .owl-nav button:hover {
+  background-color: #f2cd12 !important;
+  outline: none;
+}
+
+.eskul.elementary .owl-carousel .owl-nav button {
+  background-color: #4A4444 !important;
+  outline: none;
+}
+
+/* End section eskul */
+
+/* section gallery */
+.galerry.elementary {
+  background-image: none;
+  background-color: white;
+}
+
+.galerry.elementary .tab-gallery .nav li.nav-item .nav-link.active {
+  background-color: #7DBCA5;
+  padding: 10px 0;
+}
+
+.galerry.elementary .tab-gallery .nav li.nav-item {
+  border: 1px solid #7DBCA5;
+}
+
+.galerry.elementary .tab-gallery .tab-content .box-img:before {
+  background-color: rgba(125, 188, 165, 0.7);
+  border: none;
+}
+
+/* End section gallery */
+
+/* section ourteam */
+.ourteam.elementary .box-team img {
+  width: 150px !important;
+  height: 120px;
+  border-radius: 50px;
+}
+
+.ourteam.elementary .owl-carousel .owl-nav button.owl-next {
+  right: -40px;
+  position: absolute;
+}
+
+.ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
+  left: -40px;
+  position: absolute;
+}
+
+.ourteam.elementary .box-team h6.status {
+  color: red;
+}
+
+/* end section ourteam */
+
+/* section career */
+.career.elementary {
+  background-image: none;
+  background-color: #7DBCA5;
+}
+
+.career.elementary .cirle-paragraf .circle {
+  background-color: #f2cd12;
+  border: 3px solid #273051;
+}
+
+/* end section career */
+/* section quotes */
+.quotes.elementary {
+  background-image: none;
+  background-color: #f2cd12;
+}
+
+/* end section quotes */
+
+/* End Page Elementary */
