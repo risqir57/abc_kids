@@ -557,6 +557,16 @@
     }
 
     /* end section achi */
+    /* section aktivitas */
+    .student-activitas h6:before {
+        left: 170px;
+    }
+
+    .student-activitas h6:after {
+        right: 170px;
+    }
+
+    /* end section aktivitas */
     /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;
@@ -679,6 +689,16 @@
     }
 
     /* end section achi */
+    /* section aktivitas */
+    .student-activitas h6:before {
+        left: 300px;
+    }
+
+    .student-activitas h6:after {
+        right: 300px;
+    }
+
+    /* end section aktivitas */
     /* ---End Page junior */
 }
 
