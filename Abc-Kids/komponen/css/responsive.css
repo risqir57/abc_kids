@@ -1,6 +1,84 @@
 /* Responsive */
 @media (min-width: 320px) and (max-width: 575px) {
 
+    /* ---Page Index 320 */
+    /* section menu */
+    .menu-bar.index .navbar img {
+        display: none;
+    }
+
+    /* end section menu */
+    /* section jumbotron */
+    .jumbotron.index {
+        height: 500px;
+    }
+
+    .jumbotron.index .box-content {
+        width: 100%;
+        color: white;
+        position: relative;
+        top: 0px;
+        transform: translateY(0%);
+    }
+
+    .jumbotron.index .box-content p {
+        line-height: 2;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .jumbotron.index .box-content .btn-readmore {
+        padding: 12px 20px;
+    }
+
+    /* End section jumbotron */
+    /* section icon school */
+    .icon-school {
+        margin-top: -80px;
+        margin-bottom: 100px;
+    }
+
+    /* End section school */
+    /* section content-about */
+    .content-about h2:before {
+        display: block;
+        top: 50px;
+        margin: 0 auto;
+        left: 0px;
+    }
+
+    /* End section content-about */
+    /* section achi-index */
+    .achievement.index {
+        height: auto;
+    }
+
+    .achievement.index .box-little {
+        height: 300px;
+    }
+
+    .achievement.index .owl-carousel .box-image img {
+        width: 85%;
+        height: 100%;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+    }
+
+    /* section achi-index */
+    /* section gallery index */
+    .gallery.index .owl-carousel .box-image img {
+        width: 80%;
+        height: 100%;
+    }
+
+    /* section gallery index */
+    /* ---End Page Index */
     /*---Page Kindergarten 320 */
     /* section jumbotron */
     .jumbotron.kindergarten {
@@ -233,6 +311,73 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
 
+    /* ---Page Index 576 */
+    /* section jumbotron */
+    .jumbotron.index {
+        height: 500px;
+    }
+
+    .jumbotron.index .box-content {
+        width: 100%;
+        color: white;
+        position: relative;
+        top: 0px;
+        transform: translateY(0%);
+    }
+
+    .jumbotron.index .box-content p {
+        line-height: 2;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .jumbotron.index .box-content .btn-readmore {
+        padding: 12px 40px;
+    }
+
+    /* End section jumbotron */
+    /* section content-about */
+    .content-about h2:before {
+        display: block;
+        top: 50px;
+        margin: 0 auto;
+        left: 0px;
+    }
+
+    /* End section content-about */
+    /* section achi-index */
+    .achievement.index {
+        height: auto;
+        padding: 0px 0px;
+    }
+
+    .achievement.index .box-little {
+        height: 300px;
+    }
+
+    .achievement.index .owl-carousel .box-image img {
+        width: 85%;
+        height: 100%;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+    }
+
+    /* section achi-index */
+    /* section gallery index */
+    .gallery.index .owl-carousel .box-image img {
+        width: 80%;
+        height: 100%;
+    }
+
+    /* section gallery index */
+    /* ---End Page Index */
+
     /*---Page Kindergarten */
     /* section jumbotron */
     .jumbotron.kindergarten {
@@ -403,6 +548,75 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    /* ---Page Index 768 */
+    /* section jumbotron */
+    .jumbotron.index {
+        height: 500px;
+    }
+
+    .jumbotron.index .box-content {
+        width: 100%;
+        color: white;
+        position: relative;
+        top: 0px;
+        transform: translateY(0%);
+    }
+
+    .jumbotron.index .box-content p {
+        line-height: 2;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .jumbotron.index .box-content .btn-readmore {
+        padding: 12px 40px;
+    }
+
+    /* End section jumbotron */
+    /* section content-about */
+    .content-about h2:before {
+        display: block;
+        top: 50px;
+        margin: 0 auto;
+        left: 0px;
+    }
+
+    /* End section content-about */
+
+    /* section achi-index */
+    .achievement.index {
+        height: auto;
+    }
+
+    .achievement.index .box-little .content {
+        width: 90%;
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .achievement.index .owl-carousel .box-image img {
+        width: 85%;
+        height: 100%;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+    }
+
+    /* section achi-index */
+    /* section gallery index */
+    .gallery.index .owl-carousel .box-image img {
+        width: 80%;
+        height: 100%;
+    }
+
+    /* section gallery index */
+    /* ---End Page Index */
+
     /*---Page Kindergarten 768 *
     /* section jumbotron */
     .jumbotron.kindergarten {
@@ -533,7 +747,7 @@
     }
 
     .achievement .box-little {
-        height: 300px;
+        height: 300px !important;
         margin-bottom: 30px;
     }
 
@@ -580,6 +794,72 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    /* ---Page Index 992 */
+    /* section jumbotron */
+    .jumbotron.index {
+        height: 500px;
+    }
+
+    .jumbotron.index .box-content {
+        width: 100%;
+        color: white;
+        position: relative;
+        top: 0px;
+        transform: translateY(0%);
+    }
+
+    .jumbotron.index .box-content p {
+        line-height: 2;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .jumbotron.index .box-content .btn-readmore {
+        padding: 12px 40px;
+    }
+
+    /* End section jumbotron */
+    .content-about h2:before {
+        display: block;
+        top: 50px;
+        margin: 0 auto;
+        left: 0px;
+    }
+
+    /* End section content-about */
+    /* section achi-index */
+    .achievement.index {
+        height: auto;
+    }
+
+    .achievement.index .box-little .content {
+        width: 90%;
+        margin: 0 auto;
+        padding-right: 0px;
+    }
+
+    .achievement.index .owl-carousel .box-image img {
+        width: 85%;
+        height: 100%;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+    }
+
+    .achievement.index .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+    }
+
+    /* section achi-index */
+    /* section gallery index */
+    .gallery.index .owl-carousel .box-image img {
+        width: 80%;
+        height: 100%;
+    }
+
+    /* section gallery index */
+    /* ----End Page Index */
     /*---Page Kindergarten 992 */
     /* section jumbotron */
 
@@ -665,7 +945,7 @@
     }
 
     .achievement .box-little {
-        height: 300px;
+        height: 100% !important;
         margin-bottom: 30px;
     }
 
