@@ -213,6 +213,13 @@
     }
 
     /* end section achi */
+    /* section activitas */
+    .student-activitas h6:before,
+    .student-activitas h6:after {
+        content: '';
+        display: none;
+    }
+
     /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;

@@ -225,6 +225,112 @@
   </section>
   <!-- End Section eksul -->
 
+  <!-- Student-activitas -->
+  <section class="wrapper-padding student-activitas">
+    <div class="container">
+      <h4>"STUDENT ACTIVITIES"</h4>
+      <h6>Junior Activities</h6>
+      <div class="tab-gallery">
+        <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#org" role="tab" aria-controls="pills-home"
+              aria-selected="true">ORGANIZATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#clubs" role="tab"
+              aria-controls="pills-profile" aria-selected="false">FRIDAY CLUBS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#eskul" role="tab"
+              aria-controls="pills-profile" aria-selected="false">EXTRACURRICULAR</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade" id="org" role="tabpanel">
+            <div class="owl-carousel owl-theme owl-student-activitas">
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade show active" id="clubs" role="tabpanel">
+            <div class="owl-carousel owl-theme owl-student-activitas">
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="eskul" role="tabpanel">
+            <div class="owl-carousel owl-theme owl-student-activitas">
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+
+              <div class="box-img">
+                <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End Student-activitas -->
+
+  <!-- Section achievement -->
+  <section class="achievement clearfix">
+    <div class="row mr-not">
+      <div class="col-md-12 col-lg-4 col-xl-4 pr-not">
+        <div class="box-little">
+          <div class="content">
+            <h4>"ACHIEVEMENTS"</h4>
+            <p>These are some of the achievements we've ever won.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-7 col-xl-7">
+        <div class="owl-carousel owl-theme owl-achievement">
+          <div class="box-image">
+            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+          </div>
+          <div class="box-image">
+            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+          </div>
+          <div class="box-image">
+            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Section achievement -->
+
   <!-- Section galerry -->
   <section class="wrapper-padding galerry junior">
     <div class="container">
@@ -315,34 +421,6 @@
     </div>
   </section>
   <!-- End Section galery -->
-
-  <section class="achievement clearfix">
-    <div class="row mr-not">
-      <div class="col-md-12 col-lg-4 col-xl-4 pr-not">
-        <div class="box-little">
-          <div class="content">
-            <h4>"ACHIEVEMENTS"</h4>
-            <p>These are some of the achievements we've ever won.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12 col-lg-7 col-xl-7">
-        <div class="owl-carousel owl-theme owl-achievement">
-          <div class="box-image">
-            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
-          </div>
-          <div class="box-image">
-            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
-          </div>
-          <div class="box-image">
-            <img src="komponen/image/junior/achi/DSC03508.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  </section>
 
 
   <!-- Section ourteam -->
@@ -724,7 +802,29 @@
       }
     });
     // End Achievement
-
+    //Student activitas
+    var owl = $('.owl-carousel.owl-student-activitas');
+    owl.owlCarousel({
+      loop: true,
+      dots: false,
+      nav: true,
+      margin: 0,
+      navText: ['<span class="fas fa-chevron-left"></span>',
+        '<span class="fas fa-chevron-right"></span>'
+      ],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1024: {
+          items: 3
+        }
+      }
+    });
+    //End Student activitas
   });
 </script>
 
