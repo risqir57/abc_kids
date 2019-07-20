@@ -19,8 +19,34 @@
 
 <body>
 
+  <!-- Section sidebar -->
+  <div id="sidebar" class="sidebar clearfix">
+    <div class="img-icon clearfix">
+      <div class="box-img">
+        <a href="#home"><img src="komponen/image/junior/logo/brightonlogo.png" alt="">
+      </div></a>
+      <div class="icon">
+        <i id="close-sidebar" class="fas fa-times-circle"></i>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li><a href="#misi">VISI MISI</a></li>
+        <li><a href="#eskul">ESKUL</a></li>
+        <li><a href="#gallery">GALERRY</a></li>
+        <li><a href="#ourteam">OUR TEAM</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#career">CAREER</a></li>
+        <li><a href="#ourpatner">OUR PARTNERS</a></li>
+        <li><a href="#information">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Section sidebar -->
+
   <!-- Section logo global -->
-  <section class="logo junior clearfix">
+  <section class="logo junior clearfix" id="home">
     <div class="container">
       <div class="img">
         <img src="komponen/image/junior/logo/brightonlogo.png" alt="">
@@ -37,7 +63,7 @@
   <section class="menu-bar junior">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
       <div class="container">
-        <i class="material-icons">sort</i>
+        <i id="open-sidebar" class="material-icons">sort</i>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -62,7 +88,7 @@
   <!-- End Section jumbotron global-->
 
   <!-- Section visi misi global-->
-  <section class="wrapper-padding visi-misi junior">
+  <section class="wrapper-padding visi-misi junior" id="misi">
     <div class="container">
       <div class="visi clearfix">
         <h1>VISI</h1>
@@ -142,7 +168,7 @@
   <!-- End Section visi misi global-->
 
   <!-- Section eksul -->
-  <section class="eskul junior">
+  <section class="eskul junior" id="eskul">
     <div class="row mr-not">
       <div class="col-lg-8 pr-not">
         <div class="box-big">
@@ -332,7 +358,7 @@
   <!-- End Section achievement -->
 
   <!-- Section galerry -->
-  <section class="wrapper-padding galerry junior">
+  <section class="wrapper-padding galerry junior" id="gallery">
     <div class="container">
       <h4>"GALERRY"</h4>
       <h6>Kindergarten Gallery Photo</h6>
@@ -424,7 +450,7 @@
 
 
   <!-- Section ourteam -->
-  <section class="wrapper-padding ourteam">
+  <section class="wrapper-padding ourteam" id="ourteam">
     <div class="container">
       <h4>"OUR TEAM"</h4>
       <div class="owl-carousel owl-theme ourteam">
@@ -444,7 +470,7 @@
   <!-- End Section ourteam -->
 
   <!-- Section news -->
-  <section class="wrapper-padding news">
+  <section class="wrapper-padding news" id="news">
     <div class="container">
       <h4>"NEWS"</h4>
       <div class="row">
@@ -526,7 +552,7 @@
   <!-- End Section news -->
 
   <!-- Section career -->
-  <section class="wrapper-padding career junior">
+  <section class="wrapper-padding career junior" id="career">
     <div class="container">
       <h4>"CAREER"</h4>
       <h6>ABC KIDS & BRIGHTON JHS<br>
@@ -568,7 +594,7 @@
   <!-- End Section career -->
 
   <!-- Section ourpatners -->
-  <section class="wrapper-padding ourpartner">
+  <section class="wrapper-padding ourpartner" id="ourpatner">
     <div class="container">
       <h4>"OUR PARTNERS"</h4>
       <div class="owl-carousel owl-theme ourpartner">
@@ -613,7 +639,7 @@
 
 
   <!-- Section footer -->
-  <section class="wrapper-padding footer kindergarten">
+  <section class="wrapper-padding footer kindergarten" id="information">
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-6">
@@ -825,6 +851,32 @@
       }
     });
     //End Student activitas
+
+    // // Scroll menubar fixed 
+    $(window).scroll(function () {
+      var sticky = $('.menu-bar'),
+        scroll = $(window).scrollTop();
+
+      if (scroll >= 40) sticky.addClass('fixed');
+      else sticky.removeClass('fixed');
+    });
+    // // Scroll menubar fixed 
+
+    // Sidebar
+    $('#open-sidebar').click(function () {
+      $('#sidebar').show();
+    });
+    $('#close-sidebar').click(function () {
+      $('#sidebar').hide();
+    });
+    // End Sidebar
+
+    // Cek Scroll Y---------------------------------
+    // window.addEventListener('scroll', () => {
+    //   const scrolled = window.scrollY;
+    //   console.log(scrolled);
+    // });
+    // Cek Scroll Y---------------------------------
   });
 </script>
 

@@ -20,6 +20,15 @@
   padding: 60px 0px;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: red;
+}
+
 .mr-not {
   margin-right: 0px !important;
 }
@@ -28,7 +37,70 @@
   padding-right: 0px !important;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Sidebar */
+.sidebar {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #363b4e;
+  padding-top: 20px;
+  color: white;
+  display: none;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.sidebar .img-icon {
+  margin-bottom: -30px;
+}
+
+.sidebar .img-icon .box-img {
+  float: left;
+  display: inline-block;
+}
+
+.sidebar .img-icon .box-img img {
+  width: 100px;
+}
+
+.sidebar .img-icon .icon {
+  float: right;
+  margin-right: 10px;
+}
+
+.sidebar .img-icon .icon i {
+  font-size: 34px;
+}
+
+.sidebar .navigation {
+  display: block;
+  margin-top: 50px;
+}
+
+.sidebar .navigation ul {
+  margin-left: -40px;
+}
+
+.sidebar .navigation ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.sidebar .navigation ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* End Sidebar */
+
 
 /* ---Page Kindergerten */
 /*Section logo global */
@@ -88,6 +160,7 @@
 
 .menu-bar .navbar i {
   font-size: 40px;
+  cursor: pointer;
 }
 
 .menu-bar.kindergarten .navbar-nav .nav-item {
