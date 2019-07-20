@@ -1,28 +1,25 @@
 /* Responsive */
 @media (min-width: 320px) and (max-width: 575px) {
-    /*---Page Kindergarten 320 */
 
+    /*---Page Kindergarten 320 */
     /* section jumbotron */
     .jumbotron.kindergarten {
         height: 200px;
     }
 
     /* end section jumbotron */
-
     /* section career */
     .career {
         height: 980px;
     }
 
     /* end section career */
-
     /* section news */
     .news .card {
         margin: 0 auto;
     }
 
     /* end section news */
-
     /* section galerry */
     .galerry .tab-gallery .tab-content .box-img img {
         width: 100%;
@@ -72,7 +69,6 @@
     }
 
     /* end section quotes */
-
     /* section ourteam */
     .ourteam .owl-carousel .owl-nav button.owl-prev {
         left: 15px;
@@ -106,7 +102,6 @@
     }
 
     /* end section information */
-
     /* section footer */
     .footer h5.paragraf-information {
         margin-bottom: 60px;
@@ -125,10 +120,9 @@
     }
 
     /* end section copyright */
-
-    /*---Page Kindergarten */
-
+    /*---End Page Kindergarten */
     /* ---Page Elementary 320 */
+
     /* section jumbotron */
 
     .jumbotron.elementary {
@@ -160,7 +154,6 @@
     }
 
     /* End section content */
-
     /* section ourteam */
     .ourteam.elementary .box-team img {
         width: 150px !important;
@@ -181,11 +174,7 @@
     /* End section ourteam */
 
     /* ---End Page Elementary */
-
-    /* Page Junior */
-    .eskul.junior .box-litle {
-        height: 240px;
-    }
+    /* ---Page Junior 320 */
 
     /* section jumbotron */
 
@@ -194,30 +183,32 @@
     }
 
     /* end section jumbotron */
+    /* section eskul */
+    .eskul.junior .box-litle {
+        height: 240px;
+    }
 
-    /* End Page Junior */
+    /* end section eskul */
+    /* ---End Page Junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 576px) and (max-width: 767px) {
+
     /*---Page Kindergarten */
-
     /* section jumbotron */
-
     .jumbotron.kindergarten {
         height: 400px;
     }
 
     /* end section jumbotron */
-
     /* section career */
     .career {
         height: 780px;
     }
 
     /* end section career */
-
     /* section news */
     .news .card {
         margin: 0 auto;
@@ -275,11 +266,10 @@
     }
 
     /* end section information */
-
     /*---End Page Kindergarten */
-
     /* ---Page Elementary 576 */
-    /* End section gallery teacher */
+
+    /* section gallery teacher */
     .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
         left: 15px;
     }
@@ -306,7 +296,6 @@
     }
 
     /* End section content */
-
     /* section ourteam */
     .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
         right: 10px;
@@ -319,10 +308,8 @@
     }
 
     /* End section ourteam */
-
     /* ---End Page Elementary */
-
-    /* ---Page Junior */
+    /* ---Page Junior 576 */
 
     /* section jumbotron */
 
@@ -331,7 +318,7 @@
     }
 
     /* end section jumbotron */
-
+    /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;
     }
@@ -341,29 +328,27 @@
         left: 80px;
     }
 
+    /* end section eskul */
     /* ---End Page Junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /*---Page Kindergarten 768 */
 
+    /*---Page Kindergarten 768 *
     /* section jumbotron */
-
     .jumbotron.kindergarten {
         height: 400px;
     }
 
     /* end section jumbotron */
-
     /* section career */
     .career {
         height: 780px;
     }
 
     /* section career */
-
     /* section gallery */
     .galerry .tab-gallery .tab-content .box-img {
         text-align: center;
@@ -386,8 +371,7 @@
         left: 150px !important;
     }
 
-    /* End ection gallery */
-
+    /* end section gallery */
     /* section eskul */
     .eskul {
         height: 560px;
@@ -406,7 +390,6 @@
     }
 
     /* end eskul */
-
     /* section quotes */
     .quotes .bg-animals .icon-text {
         width: 90%;
@@ -414,7 +397,6 @@
     }
 
     /* end section quotes */
-
     /* section information */
     .information {
         height: 560px;
@@ -426,8 +408,9 @@
     }
 
     /* end section information */
-
+    /*---End Page Kindergarten *
     /*---Page Elementary 768 */
+
     /* section jumbotron */
 
     .jumbotron.elementary {
@@ -455,7 +438,6 @@
     }
 
     /* End section content */
-
     /* section ourteam */
     .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
         left: -30px;
@@ -468,9 +450,8 @@
     }
 
     /* End section ourteam */
-
     /* ---End Page Elementary */
-    /* Page Junior */
+    /* ---Page Junior 768 */
 
     /* section jumbotron */
 
@@ -479,10 +460,12 @@
     }
 
     /* end section jumbotron */
+    /* section eskul */
     .eskul.junior .box-litle {
         height: 240px;
     }
 
+    /* end section eskul */
     /* End Page Junior */
 }
 
@@ -527,10 +510,10 @@
     }
 
     /* end section quotes */
-
     /* End ection gallery */
     /*---End Page Kindergarten */
     /*---Page Elementary 992  */
+
     /* section content */
 
     .content .box-content .box-paragraf {
@@ -548,7 +531,6 @@
     }
 
     /* section gallery teacher */
-
     /* section ourteam */
     .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
         left: -20px;
@@ -560,10 +542,9 @@
         position: absolute;
     }
 
-    /* End section ourteam */
-
+    /* end section ourteam */
     /* ---End Page Elementary */
-    /* Page junior */
+    /* ---Page junior 992 */
     /* section jumbotron */
 
     .jumbotron.junior {
@@ -571,7 +552,7 @@
     }
 
     /* end section jumbotron */
-    /* End Page junior */
+    /* ---End Page junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */

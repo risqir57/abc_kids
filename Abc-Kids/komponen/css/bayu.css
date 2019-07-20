@@ -16,14 +16,8 @@
   color: #FFFF00;
 }
 
-.affix {
-  top: 0;
-  width: 100%;
-  z-index: 9999 !important;
-}
-
-.affix {
-  padding-top: 70px;
+.wrapper-padding {
+  padding: 60px 0px;
 }
 
 .mr-not {
@@ -35,12 +29,8 @@
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
-.wrapper-padding {
-  padding: 60px 0px;
-}
 
 /* ---Page Kindergerten */
-
 /*Section logo global */
 .logo {
   padding: 10px 0;
@@ -91,7 +81,6 @@
 }
 
 /* End Section logo global */
-
 /*Section menu bar global */
 .menu-bar {
   background-color: #fefefe;
@@ -116,7 +105,6 @@
 }
 
 /*Section menu bar global */
-
 /*Section jumbotron */
 .jumbotron {
   background-size: cover;
@@ -133,7 +121,6 @@
 }
 
 /* End Section jumbotron */
-
 /*Section visi misi */
 .visi-misi h1 {
   text-align: center;
@@ -163,7 +150,6 @@
 }
 
 /* End Section visi misi */
-
 /* Section eksul */
 .eskul {
   height: 400px;
@@ -300,7 +286,6 @@
 }
 
 /* End Section eksul */
-
 /* Section galerry */
 .galerry {
   background-image: url("../image/kindergarten/Gallery/back.jpg");
@@ -422,8 +407,7 @@
   display: block;
 }
 
-/* End section gallery */
-
+/* End Section gallery */
 /* Section ourteam */
 .ourteam {
   background-color: #f6f6f6;
@@ -491,7 +475,6 @@
 }
 
 /* End Section ourteam */
-
 /* Section career */
 .career {
   background-image: url(../image/kindergarten/Carer/back.jpg);
@@ -557,7 +540,6 @@
 }
 
 /* End Section career */
-
 /* Section ourpatner */
 .ourpartner h4 {
   font-weight: bold;
@@ -607,7 +589,6 @@
 }
 
 /* End Section ourpatner */
-
 /* Section information */
 .information {
   background-image: url(../image/kindergarten/Information/big.jpg)
@@ -724,7 +705,6 @@
 }
 
 /* End Section information */
-
 /* Section quotes */
 .quotes {
   background-image: url(../image/kindergarten/Quotes/animal.jpg);
@@ -763,7 +743,6 @@
 }
 
 /* End Section quotes */
-
 /* Section footer */
 .footer {
   background-color: #363b4e;
@@ -793,7 +772,6 @@
 }
 
 /* End Section footer */
-
 /* Section copyright */
 .copyright {
   padding: 40px 0;
@@ -840,20 +818,17 @@
 }
 
 /* End Section copyright */
-
 /* ---End Page Kindergerten */
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 /* ---Page Elementary */
-
 /* Section logo */
 .logo.elementary img {
   width: 100px !important;
 }
 
 /* End Section logo */
-
 /* Section navbar */
 .menu-bar.elementary .navbar-nav .nav-item {
   color: #7a7a7a;
@@ -870,7 +845,6 @@
 }
 
 /* End Section navbar */
-
 /* Section content */
 .content .box-content .img img {
   width: 100%;
@@ -952,7 +926,6 @@
 }
 
 /* End Section content */
-
 /* ---End Page Elementary */
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -981,7 +954,6 @@
 }
 
 /* End Section logo global */
-
 /* Section menu bar */
 .menu-bar.junior .navbar-nav .nav-item {
   color: #7a7a7a;
@@ -998,7 +970,6 @@
 }
 
 /* End Section menu bar */
-
 /* Section content */
 .content.junior .title-post {
   border-bottom: 2px solid #5266c6;
@@ -1045,7 +1016,6 @@
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 /* Page Junior */
-
 /* section jumbotron */
 .jumbotron.junior {
   background-image: url(../image/junior/jumbotron/carafun.jpg);
@@ -1066,7 +1036,6 @@
 }
 
 /* End section visi misi */
-
 /* section eskul */
 .eskul.junior .box-litle {
   background-color: #5266C6;
@@ -1092,7 +1061,6 @@
 }
 
 /* End section eskul */
-
 /* section gallery */
 .galerry.junior {
   background-image: none;
@@ -1114,7 +1082,6 @@
 }
 
 /* End section gallery */
-
 /* section career */
 .career.junior {
   background-image: none;
@@ -1126,7 +1093,6 @@
 }
 
 /* End section career */
-
 /* quotes */
 .quotes.junior {
   background-image: none;
@@ -1134,7 +1100,6 @@
 }
 
 /* End quotes */
-
 /* End Page Junior */
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -1187,7 +1152,6 @@
 }
 
 /* End section eskul */
-
 /* section gallery teacher */
 .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
   right: -40px;
@@ -1223,8 +1187,6 @@
 }
 
 /* section gallery teacher */
-
-
 /* section gallery */
 .galerry.elementary {
   background-image: none;
@@ -1246,7 +1208,6 @@
 }
 
 /* End section gallery */
-
 /* section ourteam */
 .ourteam.elementary .box-team img {
   width: 150px !important;
@@ -1269,7 +1230,6 @@
 }
 
 /* end section ourteam */
-
 /* section career */
 .career.elementary {
   background-image: none;
@@ -1289,5 +1249,4 @@
 }
 
 /* end section quotes */
-
-/* End Page Elementary */
+/* ---End Page Elementary */
