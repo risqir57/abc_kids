@@ -316,6 +316,40 @@
   </section>
   <!-- End Section galery -->
 
+   <!-- Section galerry -->
+   <section class="wrapper-padding galerry teacher elementary">
+    <div class="container">
+      <h4>"TEACHER GALLERY"</h4>
+      <h6>Elementary Teacher Gallery</h6>
+      <div class="owl-carousel owl-theme teacher-gallery">
+        <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+          <div class="box-team">
+            <img src="komponen/image/elementary/teacher-guru/ms.maria.jpg" alt="">
+          </div>
+      </div>
+  </section>
+  <!-- End Section galery -->
+
 
   <!-- Section ourteam -->
   <section class="wrapper-padding ourteam elementary">
@@ -602,6 +636,35 @@
     });
     // Ourpatner
 
+    
+    // Teacher gallery
+    var owl = $('.owl-carousel.teacher-gallery');
+    owl.owlCarousel({
+      loop: true,
+      dots: false,
+      nav: true,
+      margin: 0,
+      navText: ['<span class="fas fa-chevron-left"></span>',
+        '<span class="fas fa-chevron-right"></span>'
+      ],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 3
+        },
+        992: {
+          items: 4
+        },
+        1200: {
+          items: 6
+        }
+      }
+    });
+    // End Teacher gallery
+
+
     // Ourteam
     var owl = $('.owl-carousel.ourteam');
     owl.owlCarousel({
@@ -619,39 +682,15 @@
         600: {
           items: 3
         },
-        1024: {
-          items: 5
+        992: {
+          items: 4
+        },
+        1200: {
+          items: 6
         }
       }
     });
     // End Ourteam
-
-    // Information
-    var owl = $('.owl-carousel.owl-information');
-    owl.owlCarousel({
-      loop: true,
-      dots: false,
-      nav:true,
-      margin: 0,
-      navText: ['<span class="fas fa-chevron-left"></span>',
-        '<span class="fas fa-chevron-right"></span>'
-      ],
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 1
-        },
-        1024: {
-          items: 1
-        },
-        1200: {
-          items: 2
-        }
-      }
-    });
-    // End Information
 
     // Eskul
     var owl = $('.owl-carousel.owl-eskul');
@@ -678,6 +717,7 @@
     // End Eskul
 
   });
+
 </script>
 
 </html>

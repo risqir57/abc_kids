@@ -136,6 +136,16 @@
     }
 
     /* end section jumbotron */
+    /* section gallery teacher */
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+        left: 15px;
+    }
+
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+        right: 15px;
+    }
+
+    /* End section gallery teacher */
     /* section content */
     .content .box-content .img img {
         height: 300px;
@@ -269,8 +279,16 @@
     /*---End Page Kindergarten */
 
     /* ---Page Elementary 576 */
+    /* End section gallery teacher */
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+        left: 15px;
+    }
 
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+        right: 20px;
+    }
 
+    /* End section gallery teacher */
     /* section jumbotron */
 
     .jumbotron.elementary {
@@ -290,12 +308,21 @@
     /* End section content */
 
     /* section ourteam */
+    .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
+        right: 10px;
+        position: absolute;
+    }
+
+    .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
+        left: 10px;
+        position: absolute;
+    }
 
     /* End section ourteam */
 
     /* ---End Page Elementary */
 
-    /* Page Junior */
+    /* ---Page Junior */
 
     /* section jumbotron */
 
@@ -314,7 +341,7 @@
         left: 80px;
     }
 
-    /* End Page Junior */
+    /* ---End Page Junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
@@ -408,6 +435,16 @@
     }
 
     /* end section jumbotron */
+    /* section gallery teacher */
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+        left: -20px;
+    }
+
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+        right: -20px;
+    }
+
+    /* section gallery teacher */
     /* section content */
     .content .box-content .img img {
         height: 400px;
@@ -493,7 +530,7 @@
 
     /* End ection gallery */
     /*---End Page Kindergarten */
-    /*---Page Elementary */
+    /*---Page Elementary 992  */
     /* section content */
 
     .content .box-content .box-paragraf {
@@ -501,6 +538,16 @@
     }
 
     /* End section content */
+    /* section gallery teacher */
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+        left: -10px;
+    }
+
+    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+        right: -10px;
+    }
+
+    /* section gallery teacher */
 
     /* section ourteam */
     .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
