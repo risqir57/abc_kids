@@ -30,6 +30,7 @@
   background-color: red;
 }
 
+
 .mr-not {
   margin-right: 0px !important;
 }
@@ -40,6 +41,10 @@
 
 .pl-not {
   padding-left: 0px !important
+}
+
+.lb-data .lb-number {
+  display: none;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
