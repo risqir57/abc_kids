@@ -947,6 +947,21 @@
   opacity: 0;
 }
 
+.galerry.kindergarten .tab-gallery .tab-content .box-img:before {
+  top: -5px;
+  left: 0;
+  right: -5px;
+}
+
+
+
+.galerry.elementary .tab-gallery .tab-content .box-img:before {
+  top: -5px;
+  left: 0px;
+  right: -5px;
+  bottom: 0;
+}
+
 .galerry .tab-gallery .tab-content .box-img::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -1716,6 +1731,12 @@
 
 /* End section visi misi */
 /* section eskul */
+.eskul.mobile {
+  height: 400px;
+  background-color: #F2F3F5;
+  display: none;
+}
+
 .eskul.junior .box-litle {
   background-color: #5266C6;
   background-image: none;
