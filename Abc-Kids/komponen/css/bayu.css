@@ -208,6 +208,21 @@
   line-height: 1.7;
 }
 
+.content-about a.btn-seemore {
+  color: white;
+  letter-spacing: 5px;
+  padding: 8px 20px;
+  font-size: 21px;
+  font-weight: bold;
+  background-color: #EFB159;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.content-about a.btn-seemore:hover {
+  background-color: #273051;
+}
+
 /* End section content-about */
 /* Section achievement.index */
 .achievement.index .box-little {
@@ -665,6 +680,11 @@
 .menu-bar .navbar i {
   font-size: 40px;
   cursor: pointer;
+  color: #5A5A5A;
+}
+
+.menu-bar .navbar i.index {
+  color: #EFB159 !important;
 }
 
 .menu-bar .navbar {
@@ -1706,6 +1726,7 @@
   margin: auto;
   margin-bottom: 8px;
   box-shadow: 7px 7px 10px rgba(208, 209, 215, 0.7);
+  border-top-right-radius: 50px;
 }
 
 .achievement .owl-carousel .owl-nav button.owl-prev,
