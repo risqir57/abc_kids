@@ -38,6 +38,10 @@
   padding-right: 0px !important;
 }
 
+.pl-not {
+  padding-left: 0px !important
+}
+
 /* ------------------------------------------------------------------------------------------------------------------ */
 
 /* ---Page Index */
@@ -364,6 +368,7 @@
   margin: auto;
   margin-bottom: 8px;
   box-shadow: 7px 7px 10px rgba(208, 209, 215, 0.7);
+  border: 10px solid white;
 }
 
 .gallery.index .owl-carousel .owl-nav button.owl-prev,
@@ -380,7 +385,7 @@
   top: 0px;
   right: 15px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   box-shadow: 7px 7px 10px rgba(208, 209, 215, 0.7);
 }
@@ -389,7 +394,7 @@
   left: 15px;
   top: 0px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   box-shadow: 7px 7px 10px rgba(208, 209, 215, 0.7);
 }
@@ -413,8 +418,115 @@
 }
 
 /* End Section gallery.index */
-/* End Section gallery */
+
+/* Section Head */
+.head-office {
+  height: 400px;
+}
+
+.head-office .maps-head .box-litle {
+  width: 100%;
+  height: 400px;
+  background-color: #E08C5A;
+}
+
+.head-office .maps-head .box-litle .box-text {
+  width: 75%;
+  float: right;
+  position: relative;
+  top: 30%;
+  color: white;
+}
+
+.head-office .maps-head .box-litle .box-text h4:after {
+  content: '';
+  display: block;
+  width: 110px;
+  margin-top: 15px;
+  height: 5px;
+  margin-left: -20px;
+  background-color: white;
+}
+
+.head-office .maps-head .box-litle .box-text p {
+  width: 250px;
+  font-size: 20px;
+}
+
+.head-office .maps-head .box-big {
+  height: 100%;
+}
+
+/* End Section Head */
+
 /* ---End Page Index */
+
+/* ---Page Kontak */
+.maps {
+  height: 400px;
+}
+
+.maps .box-big {
+  height: 400px;
+}
+
+.form {
+  background-color: #F7F7F7;
+}
+
+.form .box-form {
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form .box-form h2 {
+  color: #E08C5A;
+  margin-bottom: 40px;
+}
+
+.form .box-form h2:before {
+  content: '';
+  display: block;
+  width: 110px;
+  margin-top: 15px;
+  height: 5px;
+  margin-left: -20px;
+  position: relative;
+  top: 50px;
+  background-color: #E08C5A;
+}
+
+.form .box-form .box-visit input {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #a9a9a9;
+}
+
+.form .box-form .box-visit input:focus {
+  outline: none;
+}
+
+.form .box-form .box-visit textarea {
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.form .box-form .box-visit textarea:focus {
+  outline: none;
+}
+
+.form .box-form .box-head p {
+  color: #a9a9a9;
+  font-size: 20px;
+  width: 200px;
+}
+
+/* End Page Kontak */
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 

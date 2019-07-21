@@ -77,8 +77,50 @@
         height: 100%;
     }
 
+    .gallery.index .owl-carousel {
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
+    }
+
+    .gallery.index .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+        top: 40%;
+    }
+
+    .gallery.index .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+        top: 40%;
+    }
+
     /* section gallery index */
+    /* section head */
+    .head-office {
+        height: 560px;
+    }
+
+    .head-office .maps-head .box-litle {
+        height: 260px;
+    }
+
+    .head-office .maps-head .box-litle .box-text {
+        top: 25px;
+    }
+
+    .head-office .maps-head .box-big {
+        height: 300px;
+    }
+
+    /* section head */
+
     /* ---End Page Index */
+    /* Page Contack */
+    .form .box-form {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Contact */
     /*---Page Kindergarten 320 */
     /* section jumbotron */
     .jumbotron.kindergarten {
@@ -376,7 +418,33 @@
     }
 
     /* section gallery index */
+    /* section head */
+    .head-office {
+        height: 560px;
+    }
+
+    .head-office .maps-head .box-litle {
+        height: 260px;
+    }
+
+    .head-office .maps-head .box-litle .box-text {
+        top: 25px;
+    }
+
+    .head-office .maps-head .box-big {
+        height: 300px;
+    }
+
+    /* section head */
     /* ---End Page Index */
+
+    /* ---Page Contact */
+    .form .box-form {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ---End Page Contact */
 
     /*---Page Kindergarten */
     /* section jumbotron */
@@ -616,6 +684,14 @@
 
     /* section gallery index */
     /* ---End Page Index */
+
+    /* ---Page Contact */
+    .form .box-form {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ---End Page Contact */
 
     /*---Page Kindergarten 768 *
     /* section jumbotron */
