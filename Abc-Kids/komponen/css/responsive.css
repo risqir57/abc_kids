@@ -1,1061 +1,1057 @@
 /* Responsive */
 @media (min-width: 320px) and (max-width: 575px) {
-
-    /* ---Page Index 320 */
-    /* section menu */
-    .menu-bar.index .navbar img {
-        display: none;
-    }
-
-    /* end section menu */
-    /* section jumbotron */
-    .jumbotron.index {
-        height: 500px;
-    }
-
-    .jumbotron.index .box-content {
-        width: 100%;
-        color: white;
-        position: relative;
-        top: 0px;
-        transform: translateY(0%);
-    }
-
-    .jumbotron.index .box-content p {
-        line-height: 2;
-        width: 100%;
-        font-size: 15px;
-    }
-
-    .jumbotron.index .box-content .btn-readmore {
-        padding: 12px 20px;
-    }
-
-    /* End section jumbotron */
-    /* section icon school */
-    .icon-school {
-        margin-top: -80px;
-        margin-bottom: 100px;
-    }
-
-    /* End section school */
-    /* section content-about */
-    .content-about h2:before {
-        display: block;
-        top: 50px;
-        margin: 0 auto;
-        left: 0px;
-    }
-
-    /* End section content-about */
-    /* section achi-index */
-    .achievement.index {
-        height: auto;
-    }
-
-    .achievement.index .box-little {
-        height: 300px;
-    }
-
-    .achievement.index .owl-carousel .box-image img {
-        width: 85%;
-        height: 100%;
-    }
-
-    .achievement.index .owl-carousel .owl-nav button.owl-next {
-        right: 0px;
-    }
-
-    .achievement.index .owl-carousel .owl-nav button.owl-prev {
-        left: 0px;
-    }
-
-    /* section achi-index */
-    /* section gallery index */
-    .gallery.index .owl-carousel .box-image img {
-        width: 80%;
-        height: 100%;
-    }
-
-    .gallery.index .owl-carousel {
-        position: relative;
-        top: 40%;
-        transform: translateY(-50%);
-    }
-
-    .gallery.index .owl-carousel .owl-nav button.owl-next {
-        right: 0px;
-        top: 40%;
-    }
-
-    .gallery.index .owl-carousel .owl-nav button.owl-prev {
-        left: 0px;
-        top: 40%;
-    }
-
-    /* section gallery index */
-    /* section head */
-    .head-office {
-        height: 560px;
-    }
-
-    .head-office .maps-head .box-litle {
-        height: 260px;
-    }
-
-    .head-office .maps-head .box-litle .box-text {
-        top: 25px;
-    }
-
-    .head-office .maps-head .box-big {
-        height: 300px;
-    }
-
-    /* section head */
-
-    /* ---End Page Index */
-    /* Page Contack */
-    .form .box-form {
-        padding: 30px 20px;
-        margin-bottom: 20px;
-    }
-
-    /* Contact */
-    /*---Page Kindergarten 320 */
-    /* section jumbotron */
-    .jumbotron.kindergarten {
-        height: 200px;
-    }
-
-    /* end section jumbotron */
-    /* section career */
-    .career {
-        height: 980px;
-    }
-
-    /* end section career */
-    /* section news */
-    .news .card {
-        margin: 0 auto;
-    }
-
-    /* end section news */
-    /* section galerry */
-    .galerry .tab-gallery .tab-content .box-img img {
-        width: 100%;
-    }
-
-    .galerry h6:before,
-    .galerry h6:after {
-        display: none;
-    }
-
-    .galerry .tab-gallery .tab-content .box-img {
-        text-align: center;
-    }
-
-    .galerry .tab-gallery .tab-content .box-img:before {
-        right: 0px;
-        left: 0px;
-    }
-
-    .galerry .tab-gallery .tab-content .box-img::after {
-        left: 45%;
-    }
-
-    /* end section gallery */
-    /* section eskul */
-    .eskul {
-        height: 560px;
-    }
-
-    .eskul .box-litle {
-        height: 245px;
-    }
-
-    .eskul .box-big {
-        padding: 30px 0px;
-    }
-
-    .eskul .box-litle .box-text {
-        top: 50%;
-    }
-
-    /* end eskul */
-    /* section quotes */
-    .quotes .bg-animals .icon-text {
-        width: 90%;
-        padding: 30px 0px;
-    }
-
-    /* end section quotes */
-    /* section ourteam */
-    .ourteam .owl-carousel .owl-nav button.owl-prev {
-        left: 15px;
-    }
-
-    .ourteam .owl-carousel .owl-nav button.owl-next {
-        right: 15px;
-    }
-
-    /* End section ourteam */
-    /* section information */
-    .information {
-        height: 730px;
-    }
-
-    .information .box-little {
-        height: 200px;
-        margin-bottom: 20px;
-    }
-
-    .information .owl-carousel .box-big .content {
-        width: 260px;
-    }
-
-    .information .owl-carousel .box-big {
-        width: 280px;
-    }
-
-    .information .box-little {
-        height: 350px;
-    }
-
-    /* end section information */
-    /* section footer */
-    .footer h5.paragraf-information {
-        margin-bottom: 60px;
-    }
-
-    /* end section footer */
-
-    /* section copyright */
-    .copyright h6 {
-        display: block;
-        margin-bottom: 30px;
-    }
-
-    .copyright .sosial-media {
-        float: none !important;
-    }
-
-    /* end section copyright */
-    /*---End Page Kindergarten */
-    /* ---Page Elementary 320 */
-
-    /* section jumbotron */
-
-    .jumbotron.elementary {
-        height: 200px;
-    }
-
-    /* end section jumbotron */
-    /* section gallery teacher */
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: 15px;
-    }
-
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
-        right: 15px;
-    }
-
-    /* End section gallery teacher */
-    /* section content */
-    .content .box-content .img img {
-        height: 300px;
-    }
-
-    .content .box-content .box-paragraf {
-        padding-right: 0px;
-    }
-
-    .content .box-content .box-paragraf p {
-        text-indent: 0px;
-    }
-
-    /* End section content */
-    /* section ourteam */
-    .ourteam.elementary .box-team img {
-        width: 150px !important;
-        height: 120px;
-        border-radius: 50px;
-    }
-
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
-        right: 15px;
-        position: absolute;
-    }
-
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: 15px;
-        position: absolute;
-    }
-
-    /* End section ourteam */
-
-    /* ---End Page Elementary */
-    /* ---Page Junior 320 */
-
-    /* section jumbotron */
-
-    .jumbotron.junior {
-        height: 200px;
-    }
-
-    /* end section jumbotron */
-    /* section achi */
-    .achievement {
-        height: 550px;
-    }
-
-    .achievement .box-little {
-        height: 300px;
-        margin-bottom: 30px;
-    }
-
-    .achievement .owl-carousel .box-image img {
-        width: 300px;
-        height: 200px;
-    }
-
-    .achievement .owl-carousel .owl-nav button.owl-prev,
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        top: 40%;
-    }
-
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        right: 10px;
-    }
-
-
-    .achievement .owl-carousel .owl-nav button.owl-prev {
-        left: 10px;
-    }
-
-    /* end section achi */
-    /* section activitas */
-    .student-activitas h6:before,
-    .student-activitas h6:after {
-        content: '';
-        display: none;
-    }
-
-    /* section eskul */
-    .eskul.junior .box-litle {
-        height: 240px;
-    }
-
-    /* end section eskul */
-    /* ---End Page Junior */
+  /* ---Page Index 320 */
+  /* section menu */
+  .menu-bar.index .navbar img {
+    display: none;
+  }
+
+  /* end section menu */
+  /* section jumbotron */
+  .jumbotron.index {
+    height: 500px;
+  }
+
+  .jumbotron.index .box-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 0px;
+    transform: translateY(0%);
+  }
+
+  .jumbotron.index .box-content p {
+    line-height: 2;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .jumbotron.index .box-content .btn-readmore {
+    padding: 12px 20px;
+  }
+
+  /* End section jumbotron */
+  /* section icon school */
+  .icon-school {
+    margin-top: -80px;
+    margin-bottom: 100px;
+  }
+
+  /* End section school */
+  /* section content-about */
+  .content-about h2:before {
+    display: block;
+    top: 50px;
+    margin: 0 auto;
+    left: 0px;
+  }
+
+  /* End section content-about */
+  /* section achi-index */
+  .achievement.index {
+    height: auto;
+  }
+
+  .achievement.index .box-little {
+    height: 300px;
+  }
+
+  .achievement.index .owl-carousel .box-image img {
+    width: 85%;
+    height: 100%;
+  }
+
+  .achievement.index .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+  }
+
+  .achievement.index .owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+  }
+
+  /* section achi-index */
+  /* section gallery index */
+  .gallery.index .owl-carousel .box-image img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .gallery.index .owl-carousel {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  .gallery.index .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+    top: 40%;
+  }
+
+  .gallery.index .owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+    top: 40%;
+  }
+
+  /* section gallery index */
+  /* section head */
+  .head-office {
+    height: 560px;
+  }
+
+  .head-office .maps-head .box-litle {
+    height: 260px;
+  }
+
+  .head-office .maps-head .box-litle .box-text {
+    top: 25px;
+  }
+
+  .head-office .maps-head .box-big {
+    height: 300px;
+  }
+
+  /* section head */
+
+  /* ---End Page Index */
+  /* Page Contack */
+  .form .box-form {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Contact */
+  /*---Page Kindergarten 320 */
+  /* section jumbotron */
+  .jumbotron.kindergarten {
+    height: 200px;
+  }
+
+  /* end section jumbotron */
+  /* section career */
+  .career {
+    height: 980px;
+  }
+
+  /* end section career */
+  /* section news */
+  .news .card {
+    margin: 0 auto;
+  }
+
+  /* end section news */
+  /* section galerry */
+  .galerry .tab-gallery .tab-content .box-img img {
+    width: 100%;
+  }
+
+  .galerry h6:before,
+  .galerry h6:after {
+    display: none;
+  }
+
+  .galerry .tab-gallery .tab-content .box-img {
+    text-align: center;
+  }
+
+  .galerry .tab-gallery .tab-content .box-img:before {
+    right: -10px;
+    top: -5px;
+    left: 0px;
+  }
+
+  .galerry .tab-gallery .tab-content .box-img::after {
+    left: 45%;
+  }
+
+  /* end section gallery */
+  /* section eskul */
+  .eskul {
+    height: 560px;
+  }
+
+  .eskul .box-litle {
+    height: 245px;
+  }
+
+  .eskul .box-big {
+    padding: 30px 0px;
+  }
+
+  .eskul .box-litle .box-text {
+    top: 50%;
+  }
+
+  /* end eskul */
+  /* section quotes */
+  .quotes .bg-animals .icon-text {
+    width: 90%;
+    padding: 30px 0px;
+  }
+
+  /* end section quotes */
+  /* section ourteam */
+  .ourteam .owl-carousel .owl-nav button.owl-prev {
+    left: 15px;
+  }
+
+  .ourteam .owl-carousel .owl-nav button.owl-next {
+    right: 15px;
+  }
+
+  /* End section ourteam */
+  /* section information */
+  .information {
+    height: 730px;
+  }
+
+  .information .box-little {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .information .owl-carousel .box-big .content {
+    width: 260px;
+  }
+
+  .information .owl-carousel .box-big {
+    width: 280px;
+  }
+
+  .information .box-little {
+    height: 350px;
+  }
+
+  /* end section information */
+  /* section footer */
+  .footer h5.paragraf-information {
+    margin-bottom: 60px;
+  }
+
+  /* end section footer */
+
+  /* section copyright */
+  .copyright h6 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .copyright .sosial-media {
+    float: none !important;
+  }
+
+  /* end section copyright */
+  /*---End Page Kindergarten */
+  /* ---Page Elementary 320 */
+
+  /* section jumbotron */
+
+  .jumbotron.elementary {
+    height: 200px;
+  }
+
+  /* end section jumbotron */
+  /* section gallery teacher */
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: 15px;
+  }
+
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+    right: 15px;
+  }
+
+  /* End section gallery teacher */
+  /* section content */
+  .content .box-content .img img {
+    height: 300px;
+  }
+
+  .content .box-content .box-paragraf {
+    padding-right: 0px;
+  }
+
+  .content .box-content .box-paragraf p {
+    text-indent: 0px;
+  }
+
+  /* End section content */
+  /* section ourteam */
+  .ourteam.elementary .box-team img {
+    width: 150px !important;
+    height: 120px;
+    border-radius: 50px;
+  }
+
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
+    right: 15px;
+    position: absolute;
+  }
+
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: 15px;
+    position: absolute;
+  }
+
+  /* End section ourteam */
+
+  /* ---End Page Elementary */
+  /* ---Page Junior 320 */
+
+  /* section jumbotron */
+
+  .jumbotron.junior {
+    height: 200px;
+  }
+
+  /* end section jumbotron */
+  /* section achi */
+  .achievement {
+    height: 550px;
+  }
+
+  .achievement .box-little {
+    height: 300px;
+    margin-bottom: 30px;
+  }
+
+  .achievement .owl-carousel .box-image img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .achievement .owl-carousel .owl-nav button.owl-prev,
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    top: 40%;
+  }
+
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+  }
+
+  .achievement .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+  }
+
+  /* end section achi */
+  /* section activitas */
+  .student-activitas h6:before,
+  .student-activitas h6:after {
+    content: "";
+    display: none;
+  }
+
+  /* section eskul */
+  .eskul.junior .box-litle {
+    height: 240px;
+  }
+
+  /* end section eskul */
+  /* ---End Page Junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 576px) and (max-width: 767px) {
+  /* ---Page Index 576 */
+  /* section jumbotron */
+  .jumbotron.index {
+    height: 500px;
+  }
 
-    /* ---Page Index 576 */
-    /* section jumbotron */
-    .jumbotron.index {
-        height: 500px;
-    }
+  .jumbotron.index .box-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 0px;
+    transform: translateY(0%);
+  }
 
-    .jumbotron.index .box-content {
-        width: 100%;
-        color: white;
-        position: relative;
-        top: 0px;
-        transform: translateY(0%);
-    }
+  .jumbotron.index .box-content p {
+    line-height: 2;
+    width: 90%;
+    font-size: 15px;
+  }
 
-    .jumbotron.index .box-content p {
-        line-height: 2;
-        width: 90%;
-        font-size: 15px;
-    }
+  .jumbotron.index .box-content .btn-readmore {
+    padding: 12px 40px;
+  }
 
-    .jumbotron.index .box-content .btn-readmore {
-        padding: 12px 40px;
-    }
+  /* End section jumbotron */
+  /* section content-about */
+  .content-about h2:before {
+    display: block;
+    top: 50px;
+    margin: 0 auto;
+    left: 0px;
+  }
 
-    /* End section jumbotron */
-    /* section content-about */
-    .content-about h2:before {
-        display: block;
-        top: 50px;
-        margin: 0 auto;
-        left: 0px;
-    }
+  /* End section content-about */
+  /* section achi-index */
+  .achievement.index {
+    height: auto;
+    padding: 0px 0px;
+  }
 
-    /* End section content-about */
-    /* section achi-index */
-    .achievement.index {
-        height: auto;
-        padding: 0px 0px;
-    }
+  .achievement.index .box-little {
+    height: 300px;
+  }
 
-    .achievement.index .box-little {
-        height: 300px;
-    }
+  .achievement.index .owl-carousel .box-image img {
+    width: 85%;
+    height: 100%;
+  }
 
-    .achievement.index .owl-carousel .box-image img {
-        width: 85%;
-        height: 100%;
-    }
+  .achievement.index .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+  }
 
-    .achievement.index .owl-carousel .owl-nav button.owl-next {
-        right: 0px;
-    }
+  .achievement.index .owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+  }
 
-    .achievement.index .owl-carousel .owl-nav button.owl-prev {
-        left: 0px;
-    }
+  /* section achi-index */
+  /* section gallery index */
+  .gallery.index .owl-carousel .box-image img {
+    width: 80%;
+    height: 100%;
+  }
 
-    /* section achi-index */
-    /* section gallery index */
-    .gallery.index .owl-carousel .box-image img {
-        width: 80%;
-        height: 100%;
-    }
+  /* section gallery index */
+  /* section head */
+  .head-office {
+    height: 560px;
+  }
 
-    /* section gallery index */
-    /* section head */
-    .head-office {
-        height: 560px;
-    }
+  .head-office .maps-head .box-litle {
+    height: 260px;
+  }
 
-    .head-office .maps-head .box-litle {
-        height: 260px;
-    }
+  .head-office .maps-head .box-litle .box-text {
+    top: 25px;
+  }
 
-    .head-office .maps-head .box-litle .box-text {
-        top: 25px;
-    }
+  .head-office .maps-head .box-big {
+    height: 300px;
+  }
 
-    .head-office .maps-head .box-big {
-        height: 300px;
-    }
+  /* section head */
+  /* ---End Page Index */
 
-    /* section head */
-    /* ---End Page Index */
+  /* ---Page Contact */
+  .form .box-form {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
 
-    /* ---Page Contact */
-    .form .box-form {
-        padding: 30px 20px;
-        margin-bottom: 20px;
-    }
+  /* ---End Page Contact */
 
-    /* ---End Page Contact */
+  /*---Page Kindergarten */
+  /* section jumbotron */
+  .jumbotron.kindergarten {
+    height: 400px;
+  }
 
-    /*---Page Kindergarten */
-    /* section jumbotron */
-    .jumbotron.kindergarten {
-        height: 400px;
-    }
+  /* end section jumbotron */
+  /* section career */
+  .career {
+    height: 780px;
+  }
 
-    /* end section jumbotron */
-    /* section career */
-    .career {
-        height: 780px;
-    }
+  /* end section career */
+  /* section news */
+  .news .card {
+    margin: 0 auto;
+  }
 
-    /* end section career */
-    /* section news */
-    .news .card {
-        margin: 0 auto;
-    }
+  /* end section news */
+  /* section gallery */
+  .galerry .tab-gallery .tab-content .box-img {
+    text-align: center;
+  }
 
-    /* end section news */
-    /* section gallery */
-    .galerry .tab-gallery .tab-content .box-img {
-        text-align: center;
-    }
+  .galerry .tab-gallery .tab-content .box-img:before {
+    right: 70px;
+    left: 70px;
+    top: -5px;
+  }
 
-    .galerry .tab-gallery .tab-content .box-img:before {
-        right: 70px;
-        left: 70px;
-    }
+  .galerry .tab-gallery .tab-content .box-img::after {
+    left: 45%;
+  }
 
-    .galerry .tab-gallery .tab-content .box-img::after {
-        left: 45%;
-    }
+  /* End ection gallery */
+  /* section quotes */
+  .quotes .bg-animals .icon-text {
+    width: 90%;
+    padding: 30px 0px;
+  }
 
-    /* End ection gallery */
-    /* section quotes */
-    .quotes .bg-animals .icon-text {
-        width: 90%;
-        padding: 30px 0px;
-    }
+  /* end section quotes */
+  /* section eskul */
+  .eskul {
+    height: 560px;
+  }
 
-    /* end section quotes */
-    /* section eskul */
-    .eskul {
-        height: 560px;
-    }
+  .eskul .box-litle {
+    height: 245px;
+  }
 
-    .eskul .box-litle {
-        height: 245px;
-    }
+  .eskul .box-big {
+    padding: 30px 0px;
+  }
 
-    .eskul .box-big {
-        padding: 30px 0px;
-    }
+  .eskul .box-litle .box-text {
+    top: 50%;
+  }
 
-    .eskul .box-litle .box-text {
-        top: 50%;
-    }
+  /* end eskul */
+  /* section information */
+  .information {
+    height: 560px;
+  }
 
-    /* end eskul */
-    /* section information */
-    .information {
-        height: 560px;
-    }
+  .information .box-little {
+    height: 200px;
+    margin-bottom: 20px;
+  }
 
-    .information .box-little {
-        height: 200px;
-        margin-bottom: 20px;
-    }
+  /* end section information */
+  /*---End Page Kindergarten */
+  /* ---Page Elementary 576 */
 
-    /* end section information */
-    /*---End Page Kindergarten */
-    /* ---Page Elementary 576 */
+  /* section gallery teacher */
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: 15px;
+  }
 
-    /* section gallery teacher */
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: 15px;
-    }
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+    right: 20px;
+  }
 
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
-        right: 20px;
-    }
+  /* End section gallery teacher */
+  /* section jumbotron */
 
-    /* End section gallery teacher */
-    /* section jumbotron */
+  .jumbotron.elementary {
+    height: 300px;
+  }
 
-    .jumbotron.elementary {
-        height: 300px;
-    }
+  /* end section jumbotron */
+  /* section content */
+  .content .box-content .img img {
+    height: 400px;
+  }
 
-    /* end section jumbotron */
-    /* section content */
-    .content .box-content .img img {
-        height: 400px;
-    }
+  .content .box-content .box-paragraf {
+    padding-right: 0px;
+  }
 
-    .content .box-content .box-paragraf {
-        padding-right: 0px;
-    }
+  /* End section content */
+  /* section ourteam */
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+    position: absolute;
+  }
 
-    /* End section content */
-    /* section ourteam */
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
-        right: 10px;
-        position: absolute;
-    }
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+    position: absolute;
+  }
 
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: 10px;
-        position: absolute;
-    }
+  /* End section ourteam */
+  /* ---End Page Elementary */
+  /* ---Page Junior 576 */
 
-    /* End section ourteam */
-    /* ---End Page Elementary */
-    /* ---Page Junior 576 */
+  /* section jumbotron */
 
-    /* section jumbotron */
+  .jumbotron.junior {
+    height: 300px;
+  }
 
-    .jumbotron.junior {
-        height: 300px;
-    }
+  /* end section jumbotron */
+  /* section achi */
+  .achievement {
+    height: 550px;
+  }
 
-    /* end section jumbotron */
-    /* section achi */
-    .achievement {
-        height: 550px;
-    }
+  .achievement .box-little {
+    height: 300px;
+    margin-bottom: 30px;
+  }
 
-    .achievement .box-little {
-        height: 300px;
-        margin-bottom: 30px;
-    }
+  .achievement .owl-carousel .box-image img {
+    width: 300px;
+    height: 200px;
+  }
 
-    .achievement .owl-carousel .box-image img {
-        width: 300px;
-        height: 200px;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-prev,
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    top: 40%;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-prev,
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        top: 40%;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        right: 10px;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+  }
 
+  /* end section achi */
+  /* section eskul */
+  .eskul.junior .box-litle {
+    height: 240px;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-prev {
-        left: 10px;
-    }
+  .galerry.junior .tab-gallery .tab-content .box-img:before {
+    right: 80px;
+    left: 80px;
+  }
 
-    /* end section achi */
-    /* section eskul */
-    .eskul.junior .box-litle {
-        height: 240px;
-    }
-
-    .galerry.junior .tab-gallery .tab-content .box-img:before {
-        right: 80px;
-        left: 80px;
-    }
-
-    /* end section eskul */
-    /* ---End Page Junior */
+  /* end section eskul */
+  /* ---End Page Junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  /* ---Page Index 768 */
+  /* section jumbotron */
+  .jumbotron.index {
+    height: 500px;
+  }
 
-    /* ---Page Index 768 */
+  .jumbotron.index .box-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 0px;
+    transform: translateY(0%);
+  }
+
+  .jumbotron.index .box-content p {
+    line-height: 2;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .jumbotron.index .box-content .btn-readmore {
+    padding: 12px 40px;
+  }
+
+  /* End section jumbotron */
+  /* section content-about */
+  .content-about h2:before {
+    display: block;
+    top: 50px;
+    margin: 0 auto;
+    left: 0px;
+  }
+
+  /* End section content-about */
+
+  /* section achi-index */
+  .achievement.index {
+    height: auto;
+  }
+
+  .achievement.index .box-little .content {
+    width: 90%;
+    margin: 0 auto;
+    padding-right: 0px;
+  }
+
+  .achievement.index .owl-carousel .box-image img {
+    width: 85%;
+    height: 100%;
+  }
+
+  .achievement.index .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+  }
+
+  .achievement.index .owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+  }
+
+  /* section achi-index */
+  /* section gallery index */
+  .gallery.index .owl-carousel .box-image img {
+    width: 80%;
+    height: 100%;
+  }
+
+  /* section gallery index */
+  /* ---End Page Index */
+
+  /* ---Page Contact */
+  .form .box-form {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+
+  /* ---End Page Contact */
+
+  /*---Page Kindergarten 768 *
     /* section jumbotron */
-    .jumbotron.index {
-        height: 500px;
-    }
+  .jumbotron.kindergarten {
+    height: 400px;
+  }
 
-    .jumbotron.index .box-content {
-        width: 100%;
-        color: white;
-        position: relative;
-        top: 0px;
-        transform: translateY(0%);
-    }
+  /* end section jumbotron */
+  /* section career */
+  .career {
+    height: 780px;
+  }
 
-    .jumbotron.index .box-content p {
-        line-height: 2;
-        width: 90%;
-        font-size: 15px;
-    }
+  /* section career */
+  /* section gallery */
+  .galerry .tab-gallery .tab-content .box-img {
+    text-align: center;
+  }
 
-    .jumbotron.index .box-content .btn-readmore {
-        padding: 12px 40px;
-    }
+  .galerry .tab-gallery .tab-content .box-img:before {
+    right: -22px;
+    left: 0px;
+    top: -10px;
+  }
 
-    /* End section jumbotron */
-    /* section content-about */
-    .content-about h2:before {
-        display: block;
-        top: 50px;
-        margin: 0 auto;
-        left: 0px;
-    }
+  .galerry .tab-gallery .tab-content .box-img::after {
+    left: 50%;
+  }
 
-    /* End section content-about */
+  .galerry h6:after {
+    right: 150px !important;
+  }
 
-    /* section achi-index */
-    .achievement.index {
-        height: auto;
-    }
+  .galerry h6::before {
+    left: 150px !important;
+  }
 
-    .achievement.index .box-little .content {
-        width: 90%;
-        margin: 0 auto;
-        padding-right: 0px;
-    }
+  /* end section gallery */
+  /* section eskul */
+  .eskul {
+    height: 560px;
+  }
 
-    .achievement.index .owl-carousel .box-image img {
-        width: 85%;
-        height: 100%;
-    }
+  .eskul .box-litle {
+    height: 245px;
+  }
 
-    .achievement.index .owl-carousel .owl-nav button.owl-next {
-        right: 0px;
-    }
+  .eskul .box-big {
+    padding: 30px 0px;
+  }
 
-    .achievement.index .owl-carousel .owl-nav button.owl-prev {
-        left: 0px;
-    }
+  .eskul .box-litle .box-text {
+    top: 40%;
+  }
 
-    /* section achi-index */
-    /* section gallery index */
-    .gallery.index .owl-carousel .box-image img {
-        width: 80%;
-        height: 100%;
-    }
+  /* end eskul */
+  /* section quotes */
+  .quotes .bg-animals .icon-text {
+    width: 90%;
+    padding: 30px 0px;
+  }
 
-    /* section gallery index */
-    /* ---End Page Index */
+  /* end section quotes */
+  /* section information */
+  .information {
+    height: 560px;
+  }
 
-    /* ---Page Contact */
-    .form .box-form {
-        padding: 30px 20px;
-        margin-bottom: 20px;
-    }
+  .information .box-little {
+    height: 200px;
+    margin-bottom: 20px;
+  }
 
-    /* ---End Page Contact */
-
-    /*---Page Kindergarten 768 *
-    /* section jumbotron */
-    .jumbotron.kindergarten {
-        height: 400px;
-    }
-
-    /* end section jumbotron */
-    /* section career */
-    .career {
-        height: 780px;
-    }
-
-    /* section career */
-    /* section gallery */
-    .galerry .tab-gallery .tab-content .box-img {
-        text-align: center;
-    }
-
-    .galerry .tab-gallery .tab-content .box-img:before {
-        right: -20px;
-        left: 0px;
-    }
-
-    .galerry .tab-gallery .tab-content .box-img::after {
-        left: 50%;
-    }
-
-    .galerry h6:after {
-        right: 150px !important;
-    }
-
-    .galerry h6::before {
-        left: 150px !important;
-    }
-
-    /* end section gallery */
-    /* section eskul */
-    .eskul {
-        height: 560px;
-    }
-
-    .eskul .box-litle {
-        height: 245px;
-    }
-
-    .eskul .box-big {
-        padding: 30px 0px;
-    }
-
-    .eskul .box-litle .box-text {
-        top: 40%;
-    }
-
-    /* end eskul */
-    /* section quotes */
-    .quotes .bg-animals .icon-text {
-        width: 90%;
-        padding: 30px 0px;
-    }
-
-    /* end section quotes */
-    /* section information */
-    .information {
-        height: 560px;
-    }
-
-    .information .box-little {
-        height: 200px;
-        margin-bottom: 20px;
-    }
-
-    /* end section information */
-    /*---End Page Kindergarten *
+  /* end section information */
+  /*---End Page Kindergarten *
     /*---Page Elementary 768 */
 
-    /* section jumbotron */
+  /* section jumbotron */
 
-    .jumbotron.elementary {
-        height: 400px;
-    }
+  .jumbotron.elementary {
+    height: 400px;
+  }
 
-    /* end section jumbotron */
-    /* section gallery teacher */
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: -20px;
-    }
+  /* end section jumbotron */
+  /* section gallery teacher */
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: -20px;
+  }
 
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
-        right: -20px;
-    }
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+    right: -20px;
+  }
 
-    /* section gallery teacher */
-    /* section content */
-    .content .box-content .img img {
-        height: 400px;
-    }
+  /* section gallery teacher */
+  /* section content */
+  .content .box-content .img img {
+    height: 400px;
+  }
 
-    .content .box-content .box-paragraf {
-        padding-right: 0px;
-    }
+  .content .box-content .box-paragraf {
+    padding-right: 0px;
+  }
 
-    /* End section content */
-    /* section ourteam */
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: -30px;
-        position: absolute;
-    }
+  /* End section content */
+  /* section ourteam */
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: -30px;
+    position: absolute;
+  }
 
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
-        right: -30px;
-        position: absolute;
-    }
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
+    right: -30px;
+    position: absolute;
+  }
 
-    /* End section ourteam */
-    /* ---End Page Elementary */
-    /* ---Page Junior 768 */
+  /* End section ourteam */
+  /* ---End Page Elementary */
+  /* ---Page Junior 768 */
 
-    /* section jumbotron */
+  /* section jumbotron */
 
-    .jumbotron.junior {
-        height: 400px;
-    }
+  .jumbotron.junior {
+    height: 400px;
+  }
 
-    /* end section jumbotron */
-    /* section achi */
-    .achievement {
-        height: 550px;
-    }
+  /* end section jumbotron */
+  /* section achi */
+  .achievement {
+    height: 550px;
+  }
 
-    .achievement .box-little {
-        height: 300px !important;
-        margin-bottom: 30px;
-    }
+  .achievement .box-little {
+    height: 300px !important;
+    margin-bottom: 30px;
+  }
 
-    .achievement .owl-carousel .box-image img {
-        width: 300px;
-        height: 200px;
-    }
+  .achievement .owl-carousel .box-image img {
+    width: 300px;
+    height: 200px;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-prev,
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        top: 40%;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-prev,
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    top: 40%;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        right: 10px;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+  }
 
+  .achievement .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-prev {
-        left: 10px;
-    }
+  /* end section achi */
+  /* section aktivitas */
+  .student-activitas h6:before {
+    left: 170px;
+  }
 
-    /* end section achi */
-    /* section aktivitas */
-    .student-activitas h6:before {
-        left: 170px;
-    }
+  .student-activitas h6:after {
+    right: 170px;
+  }
 
-    .student-activitas h6:after {
-        right: 170px;
-    }
+  /* end section aktivitas */
+  /* section eskul */
+  .eskul.junior .box-litle {
+    height: 240px;
+  }
 
-    /* end section aktivitas */
-    /* section eskul */
-    .eskul.junior .box-litle {
-        height: 240px;
-    }
-
-    /* end section eskul */
-    /* End Page Junior */
+  /* end section eskul */
+  /* End Page Junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* ---Page Index 992 */
+  /* section jumbotron */
+  .jumbotron.index {
+    height: 500px;
+  }
 
-    /* ---Page Index 992 */
-    /* section jumbotron */
-    .jumbotron.index {
-        height: 500px;
-    }
+  .jumbotron.index .box-content {
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 0px;
+    transform: translateY(0%);
+  }
 
-    .jumbotron.index .box-content {
-        width: 100%;
-        color: white;
-        position: relative;
-        top: 0px;
-        transform: translateY(0%);
-    }
+  .jumbotron.index .box-content p {
+    line-height: 2;
+    width: 90%;
+    font-size: 15px;
+  }
 
-    .jumbotron.index .box-content p {
-        line-height: 2;
-        width: 90%;
-        font-size: 15px;
-    }
+  .jumbotron.index .box-content .btn-readmore {
+    padding: 12px 40px;
+  }
 
-    .jumbotron.index .box-content .btn-readmore {
-        padding: 12px 40px;
-    }
+  /* End section jumbotron */
+  .content-about h2:before {
+    display: block;
+    top: 50px;
+    margin: 0 auto;
+    left: 0px;
+  }
 
-    /* End section jumbotron */
-    .content-about h2:before {
-        display: block;
-        top: 50px;
-        margin: 0 auto;
-        left: 0px;
-    }
+  /* End section content-about */
+  /* section achi-index */
+  .achievement.index {
+    height: auto;
+  }
 
-    /* End section content-about */
-    /* section achi-index */
-    .achievement.index {
-        height: auto;
-    }
+  .achievement.index .box-little .content {
+    width: 90%;
+    margin: 0 auto;
+    padding-right: 0px;
+  }
 
-    .achievement.index .box-little .content {
-        width: 90%;
-        margin: 0 auto;
-        padding-right: 0px;
-    }
+  .achievement.index .owl-carousel .box-image img {
+    width: 85%;
+    height: 100%;
+  }
 
-    .achievement.index .owl-carousel .box-image img {
-        width: 85%;
-        height: 100%;
-    }
+  .achievement.index .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+  }
 
-    .achievement.index .owl-carousel .owl-nav button.owl-next {
-        right: 0px;
-    }
+  .achievement.index .owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+  }
 
-    .achievement.index .owl-carousel .owl-nav button.owl-prev {
-        left: 0px;
-    }
+  /* section achi-index */
+  /* section gallery index */
+  .gallery.index .owl-carousel .box-image img {
+    width: 80%;
+    height: 100%;
+  }
 
-    /* section achi-index */
-    /* section gallery index */
-    .gallery.index .owl-carousel .box-image img {
-        width: 80%;
-        height: 100%;
-    }
+  /* section gallery index */
+  /* ----End Page Index */
+  /*---Page Kindergarten 992 */
+  /* section jumbotron */
 
-    /* section gallery index */
-    /* ----End Page Index */
-    /*---Page Kindergarten 992 */
-    /* section jumbotron */
+  .jumbotron.elementary {
+    height: 400px;
+  }
 
-    .jumbotron.elementary {
-        height: 400px;
-    }
+  /* end section jumbotron */
+  /* section gallery */
+  .galerry .tab-gallery .tab-content .box-img {
+    text-align: center;
+  }
 
-    /* end section jumbotron */
-    /* section gallery */
-    .galerry .tab-gallery .tab-content .box-img {
-        text-align: center;
-    }
+  .galerry .tab-gallery .tab-content .box-img:before {
+    right: 40px;
+    left: 40px;
+    top: -5px;
+  }
 
-    .galerry .tab-gallery .tab-content .box-img:before {
-        right: 50px;
-        left: 40px;
-    }
+  .galerry .tab-gallery .tab-content .box-img::after {
+    left: 45%;
+  }
 
-    .galerry .tab-gallery .tab-content .box-img::after {
-        left: 45%;
-    }
+  .galerry h6:after {
+    right: 270px !important;
+  }
 
-    .galerry h6:after {
-        right: 270px !important;
-    }
+  .galerry h6::before {
+    left: 270px !important;
+  }
 
-    .galerry h6::before {
-        left: 270px !important;
-    }
+  /* section quotes */
+  .quotes .bg-animals .icon-text {
+    width: 80%;
+    padding: 30px 0px;
+  }
 
-    /* section quotes */
-    .quotes .bg-animals .icon-text {
-        width: 80%;
-        padding: 30px 0px;
-    }
+  /* end section quotes */
+  /* End ection gallery */
+  /*---End Page Kindergarten */
+  /*---Page Elementary 992  */
 
-    /* end section quotes */
-    /* End ection gallery */
-    /*---End Page Kindergarten */
-    /*---Page Elementary 992  */
+  /* section content */
 
-    /* section content */
+  .content .box-content .box-paragraf {
+    padding-right: 0px;
+  }
 
-    .content .box-content .box-paragraf {
-        padding-right: 0px;
-    }
+  /* End section content */
+  /* section gallery teacher */
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: -10px;
+  }
 
-    /* End section content */
-    /* section gallery teacher */
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: -10px;
-    }
+  .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
+    right: -10px;
+  }
 
-    .galerry.teacher.elementary .owl-carousel .owl-nav button.owl-next {
-        right: -10px;
-    }
+  /* section gallery teacher */
+  /* section ourteam */
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
+    left: -20px;
+    position: absolute;
+  }
 
-    /* section gallery teacher */
-    /* section ourteam */
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-prev {
-        left: -20px;
-        position: absolute;
-    }
+  .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
+    right: -20px;
+    position: absolute;
+  }
 
-    .ourteam.elementary .owl-carousel .owl-nav button.owl-next {
-        right: -20px;
-        position: absolute;
-    }
+  /* end section ourteam */
+  /* ---End Page Elementary */
+  /* ---Page junior 992 */
+  /* section jumbotron */
 
-    /* end section ourteam */
-    /* ---End Page Elementary */
-    /* ---Page junior 992 */
-    /* section jumbotron */
+  .jumbotron.junior {
+    height: 400px;
+  }
 
-    .jumbotron.junior {
-        height: 400px;
-    }
+  /* end section jumbotron */
+  /* section achi */
+  .achievement {
+    height: 320px;
+  }
 
-    /* end section jumbotron */
-    /* section achi */
-    .achievement {
-        height: 320px;
-    }
+  .achievement .box-little {
+    height: 100% !important;
+    margin-bottom: 30px;
+  }
 
-    .achievement .box-little {
-        height: 100% !important;
-        margin-bottom: 30px;
-    }
+  .achievement .owl-carousel .box-image img {
+    width: 400px;
+    height: 260px;
+  }
 
-    .achievement .owl-carousel .box-image img {
-        width: 400px;
-        height: 260px;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-prev,
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    top: 40%;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-prev,
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        top: 40%;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-next {
-        right: 10px;
-    }
+  .achievement .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+  }
 
+  /* end section achi */
+  /* section aktivitas */
+  .student-activitas h6:before {
+    left: 300px;
+  }
 
-    .achievement .owl-carousel .owl-nav button.owl-prev {
-        left: 10px;
-    }
+  .student-activitas h6:after {
+    right: 300px;
+  }
 
-    /* end section achi */
-    /* section aktivitas */
-    .student-activitas h6:before {
-        left: 300px;
-    }
-
-    .student-activitas h6:after {
-        right: 300px;
-    }
-
-    /* end section aktivitas */
-    /* ---End Page junior */
+  /* end section aktivitas */
+  /* ---End Page junior */
 }
 
 /* ------------------------------------------------------------------------------------------------------------------- */

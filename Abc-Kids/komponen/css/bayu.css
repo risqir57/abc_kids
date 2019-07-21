@@ -936,9 +936,9 @@
 
 .galerry .tab-gallery .tab-content .box-img:before {
   content: "";
-  top: 0;
+  top: -5px;
   left: 0;
-  right: 0;
+  right: -10px;
   bottom: 0;
   position: absolute;
   background-color: rgba(37, 170, 128, 0.7);
