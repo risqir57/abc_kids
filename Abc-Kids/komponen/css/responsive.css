@@ -8,6 +8,12 @@
     }
 
     /* end section menu */
+    /* section navbar */
+    .navbar-nav {
+        padding: 15px 0px;
+    }
+
+    /* seciton navbar */
     /* section jumbotron */
     .jumbotron.index {
         height: 500px;
@@ -368,6 +374,11 @@
 @media (min-width: 576px) and (max-width: 767px) {
 
     /* ---Page Index 576 */
+    /* section navbar */
+    .navbar-nav {
+        padding: 15px 0px;
+    }
+
     /* section jumbotron */
     .jumbotron.index {
         height: 500px;
@@ -652,6 +663,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* ---Page Index 768 */
+    .navbar-nav {
+        padding: 15px 0px;
+    }
+
     /* section jumbotron */
     .jumbotron.index {
         height: 500px;
