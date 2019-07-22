@@ -193,9 +193,9 @@
     </div>
   </section>
   <!-- End Section achievement -->
-  <!-- Section gallery -->
 
-  <section class="wrapper-padding galerry tabindex" id="gallery">
+  <!-- Section gallery tab normal-->
+  <!-- <section class="wrapper-padding galerry tabindex" id="gallery">
     <div class="container">
       <h4>"GALERRY"</h4>
       <h6>School Gallery Photo</h6>
@@ -306,28 +306,50 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+  <!-- End Seciton gallery tab normal -->
 
-  <!-- <section class="wrapper-padding gallery index clearfix" id="gallery">
-    <div class="row mr-not justify-content-center">
-      <div class="col-md-12 col-lg-8 col-xl-8">
-        <h2>Gallery</h2>
-        <p>That is some of our activities at school.</p>
-        <div class="owl-carousel owl-theme owl-gallery">
-          <div class="box-image">
-            <img src="komponen/image/index/gallery/DSC0418.jpg" alt="">
-          </div>
-          <div class="box-image">
-            <img src="komponen/image/index/gallery/DSC0418.jpg" alt="">
-          </div>
-          <div class="box-image">
-            <img src="komponen/image/index/gallery/DSC0418.jpg" alt="">
-          </div>
+  <!-- Section gallery tab shuffle -->
+  <section class="wrapper-padding galerry tabindex shuffle" id="gallery">
+    <div class="container">
+      <h4>"GALERRY"</h4>
+      <h6>School Gallery Photo</h6>
+      <div class="box-button">
+        <button id='all'>ALL PHOTOS</button>
+        <button class="active" id='events'>EVENTS</button>
+      </div>
+      <div class="row my-shuffle-container">
+        <div class="picture-item column" data-groups='["events"]'>
+          <a href="komponen/image/index/gallery/DSC0418.jpg" data-lightbox="mygallery">
+            <div class="box-image"><img src="komponen/image/index/gallery/DSC0418.jpg" alt=""></div>
+            <a href=""></a>
         </div>
+        <div class="picture-item column" data-groups='["city"]'>
+          <a href="komponen/image/index/gallery/DSC0418.jpg" data-lightbox="mygallery">
+            <div class="box-image"><img src="komponen/image/index/gallery/DSC0418.jpg" alt=""></div>
+          </a>
+        </div>
+        <div class="picture-item column" data-groups='["nature"]'>
+          <a href="komponen/image/index/gallery/DSC0418.jpg" data-lightbox="mygallery">
+            <div class="box-image"><img src="komponen/image/index/gallery/DSC0418.jpg" alt=""></div>
+          </a>
+        </div>
+        <div class="picture-item column" data-groups='["events"]'>
+          <a href="komponen/image/index/gallery/DSC0418.jpg" data-lightbox="mygallery">
+            <div class="box-image"><img src="komponen/image/index/gallery/DSC0418.jpg" alt=""></div>
+          </a>
+        </div>
+        <div class="picture-item column" data-groups='["nature"]'>
+          <a href="komponen/image/index/gallery/DSC0418.jpg" data-lightbox="mygallery">
+            <div class="box-image"><img src="komponen/image/index/gallery/DSC0418.jpg" alt=""></div>
+          </a>
+        </div>
+        <div class="col-1@sm my-sizer-element"></div>
       </div>
     </div>
-  </section> -->
-  <!-- End Section gallery -->
+  </section>
+  <!-- End Section gallery tab shuffle -->
+
   <!-- Seciton head office -->
   <section class="head-office" id="office">
     <div class="maps-head">
@@ -384,6 +406,7 @@
 
 
 </body>
+<script src="https://unpkg.com/shufflejs@5"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -393,6 +416,29 @@
 <script src="komponen/js/owl.carousel.min.js"></script>
 <script>
   $(document).ready(function () {
+    // Shuffle
+    var Shuffle = window.Shuffle;
+    var element = document.querySelector('.my-shuffle-container');
+    var sizer = element.querySelector('.my-sizer-element');
+
+    var shuffleInstance = new Shuffle(element, {
+      itemSelector: '.picture-item',
+      sizer: sizer // could also be a selector: '.my-sizer-element'
+    });
+    // shuffleInstance.filter('events');
+    $("#all").on("click", function () {
+      shuffleInstance.filter();
+    });
+    $("#events").on("click", function () {
+      shuffleInstance.filter('events');
+    });
+    $("#btn-city").on("click", function () {
+      shuffleInstance.filter('city');
+    });
+    $("#btn-nature").on("click", function () {
+      shuffleInstance.filter('nature');
+    });
+    // Shuffle
     // // Scroll menubar fixed 
     $(window).scroll(function () {
       var sticky = $('.menu-bar'),

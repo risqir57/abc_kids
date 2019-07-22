@@ -100,11 +100,14 @@
     }
 
     /* section gallery index */
-    /* section head */
-    .head-office {
-        height: 560px;
+    /* section gallery tab shuffle */
+    .column {
+        float: none;
+        width: 100%;
+        display: block;
     }
 
+    /* End section gallery tab shuffle */
     .head-office .maps-head .box-litle {
         height: 260px;
     }
@@ -326,7 +329,7 @@
     /* end section jumbotron */
     /* section achi */
     .achievement {
-        height: 550px;
+        height: auto;
     }
 
     .achievement .box-little {
@@ -443,6 +446,14 @@
     }
 
     /* section gallery index */
+    /* section gallery tab shuffle */
+    .column {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+
+    /* End section gallery tab shuffle */
     /* section head */
     .head-office {
         height: 560px;
@@ -608,7 +619,7 @@
     /* end section jumbotron */
     /* section achi */
     .achievement {
-        height: 550px;
+        height: auto;
     }
 
     .achievement .box-little {
@@ -733,6 +744,12 @@
     }
 
     /* section gallery index */
+    /* section gallery tab shuffle */
+    .column {
+        width: 50%;
+    }
+
+    /* End section gallery tab shuffle */
     /* ---End Page Index */
 
     /* ---Page Contact */
@@ -881,7 +898,7 @@
     /* end section jumbotron */
     /* section achi */
     .achievement {
-        height: 550px;
+        height: auto;
     }
 
     .achievement .box-little {
@@ -1091,7 +1108,7 @@
     /* end section jumbotron */
     /* section achi */
     .achievement {
-        height: 320px;
+        height: auto;
     }
 
     .achievement .box-little {
