@@ -13,8 +13,8 @@
   color: #f2f3f5;
   color: #72eab7;
   color: #5266c6;
-  color: #FFFF00;
-  color: #E08C5A;
+  color: #ffff00;
+  color: #e08c5a;
 }
 
 .wrapper-padding {
@@ -30,7 +30,6 @@
   background-color: red;
 }
 
-
 .mr-not {
   margin-right: 0px !important;
 }
@@ -40,7 +39,7 @@
 }
 
 .pl-not {
-  padding-left: 0px !important
+  padding-left: 0px !important;
 }
 
 .lb-data .lb-number {
@@ -59,7 +58,7 @@
 /* End section sidebar */
 /* section menu bar */
 .menu-bar.index .navbar i {
-  color: #E08C5A;
+  color: #e08c5a;
 }
 
 .menu-bar.index .navbar img {
@@ -107,7 +106,7 @@
   cursor: pointer;
   padding: 12px 40px;
   border-radius: 30px;
-  color: #E08C5A;
+  color: #e08c5a;
   background-color: white;
   letter-spacing: 5px;
   font-size: 20px;
@@ -159,15 +158,15 @@
 }
 
 .icon-school .box-img h5.text-kindergarten {
-  color: #70E778;
+  color: #70e778;
 }
 
 .icon-school .box-img h5.text-elementary {
-  color: #F5D833;
+  color: #f5d833;
 }
 
 .icon-school .box-img h5.text-junior {
-  color: #7F8ED5;
+  color: #7f8ed5;
 }
 
 /* End section icon-school */
@@ -177,17 +176,17 @@
 }
 
 .content-about h2 {
-  color: #8F8B85;
+  color: #8f8b85;
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
 }
 
 .content-about h2:before {
-  content: '';
+  content: "";
   width: 120px;
   height: 5px;
-  background-color: #EFB159;
+  background-color: #efb159;
   display: inline-block;
   top: 15px;
   left: 95px;
@@ -197,7 +196,7 @@
 }
 
 .content-about h4 {
-  color: #645F5B;
+  color: #645f5b;
   margin-bottom: 40px;
 }
 
@@ -214,7 +213,7 @@
   padding: 8px 20px;
   font-size: 21px;
   font-weight: bold;
-  background-color: #EFB159;
+  background-color: #efb159;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -226,14 +225,14 @@
 /* End section content-about */
 /* Section achievement.index */
 .achievement.index .box-little {
-  background-color: #E08C5A;
+  background-color: #e08c5a;
   background-image: none;
 }
 
 .achievement.index {
   height: 500px;
   background-size: 85%;
-  background-color: #F4F5FC;
+  background-color: #f4f5fc;
 }
 
 .achievement.index .box-little {
@@ -242,7 +241,6 @@
   position: relative;
   background-size: 95%;
 }
-
 
 .achievement.index .box-little .content {
   width: 80%;
@@ -260,7 +258,7 @@
 }
 
 .achievement.index .box-little .content span:before {
-  content: '';
+  content: "";
   width: 80px;
   height: 1px;
   margin-right: 10px;
@@ -276,16 +274,14 @@
 }
 
 .achievement.index .box-little .content h4:after {
-  content: '';
+  content: "";
   display: block;
   width: 110px;
   margin-top: 15px;
   height: 5px;
   margin-left: -20px;
   background-color: white;
-
 }
-
 
 .achievement.index .box-little .content p {
   font-size: 24px;
@@ -309,7 +305,7 @@
 .achievement.index .owl-carousel .owl-nav button.owl-next {
   padding: 8px 14px !important;
   background-color: white !important;
-  color: #E08C5A;
+  color: #e08c5a;
   border-radius: 20px !important;
   text-align: center;
 }
@@ -331,23 +327,47 @@
 }
 
 .achievement.index .owl-carousel .owl-nav button:hover {
-  background-color: #E08C5A !important;
+  background-color: #e08c5a !important;
   outline: none;
   color: white;
 }
 
 .achievement.index .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots span {
-  background: #E08C5A;
+  background: #e08c5a;
   width: 30px;
 }
 
 .achievement.index .owl-theme .owl-dots .owl-dot span {
   margin: 5px 3px;
   background: white;
-  border: 1px solid #E08C5A;
+  border: 1px solid #e08c5a;
 }
 
+/* Section Galelry Tab */
+.galerry.tabindex {
+  background-image: none;
+  background-color: white;
+}
+
+.galerry.tabindex .tab-gallery .nav li.nav-item .nav-link.active {
+  background-color: #e08c5a;
+  padding: 10px 0;
+}
+
+.galerry.tabindex .tab-gallery .nav li.nav-item {
+  border: 1px solid #e08c5a;
+}
+
+.galerry.tabindex .tab-gallery .tab-content .box-img:before {
+  background-color: rgba(224, 140, 90, 0.7);
+  border: none;
+  top: -4px;
+  left: 0px;
+  right: -4px;
+  bottom: 0;
+}
+/* Section Galelry Tab */
 /* End Section achievement.index */
 /* Section gallery */
 .gallery.index {
@@ -357,7 +377,7 @@
 }
 
 .gallery.index h2 {
-  color: #615C58;
+  color: #615c58;
   text-align: center;
   font-weight: bold;
   margin-bottom: 20px;
@@ -365,10 +385,10 @@
 }
 
 .gallery.index h2::before {
-  content: '';
+  content: "";
   width: 100px;
   height: 5px;
-  background-color: #E08C5A;
+  background-color: #e08c5a;
   margin: 0 auto;
   display: block;
   position: relative;
@@ -380,7 +400,6 @@
   line-height: 1.8;
   text-align: center;
 }
-
 
 .gallery.index .owl-carousel {
   position: relative;
@@ -401,7 +420,7 @@
 .gallery.index .owl-carousel .owl-nav button.owl-next {
   padding: 8px 14px !important;
   background-color: white !important;
-  color: #E08C5A;
+  color: #e08c5a;
   border-radius: 20px !important;
   text-align: center;
   box-shadow: 7px 7px 10px rgba(208, 209, 215, 0.7);
@@ -426,21 +445,21 @@
 }
 
 .gallery.index .owl-carousel .owl-nav button:hover {
-  background-color: #E08C5A !important;
+  background-color: #e08c5a !important;
   outline: none;
   color: white;
 }
 
 .gallery.index .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots span {
-  background: #E08C5A;
+  background: #e08c5a;
   width: 30px;
 }
 
 .gallery.index .owl-theme .owl-dots .owl-dot span {
   margin: 5px 3px;
   background: white;
-  border: 1px solid #E08C5A;
+  border: 1px solid #e08c5a;
 }
 
 /* End Section gallery.index */
@@ -453,7 +472,7 @@
 .head-office .maps-head .box-litle {
   width: 100%;
   height: 400px;
-  background-color: #E08C5A;
+  background-color: #e08c5a;
 }
 
 .head-office .maps-head .box-litle .box-text {
@@ -465,7 +484,7 @@
 }
 
 .head-office .maps-head .box-litle .box-text h4:after {
-  content: '';
+  content: "";
   display: block;
   width: 110px;
   margin-top: 15px;
@@ -497,7 +516,7 @@
 }
 
 .form {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .form .box-form {
@@ -508,12 +527,12 @@
 }
 
 .form .box-form h2 {
-  color: #E08C5A;
+  color: #e08c5a;
   margin-bottom: 40px;
 }
 
 .form .box-form h2:before {
-  content: '';
+  content: "";
   display: block;
   width: 110px;
   margin-top: 15px;
@@ -521,7 +540,7 @@
   margin-left: -20px;
   position: relative;
   top: 50px;
-  background-color: #E08C5A;
+  background-color: #e08c5a;
 }
 
 .form .box-form .box-visit input {
@@ -620,7 +639,6 @@
 
 /* End Sidebar */
 
-
 /* ---Page Kindergerten */
 /*Section logo global */
 .logo {
@@ -680,11 +698,11 @@
 .menu-bar .navbar i {
   font-size: 40px;
   cursor: pointer;
-  color: #5A5A5A;
+  color: #5a5a5a;
 }
 
 .menu-bar .navbar i.index {
-  color: #EFB159 !important;
+  color: #efb159 !important;
 }
 
 .menu-bar .navbar {
@@ -695,8 +713,6 @@
   padding: 15px;
   border-radius: 5px;
 }
-
-
 
 .menu-bar.junior .navbar-nav a.nav-item.nav-link.bottom-active {
   background-color: #273051;
@@ -711,11 +727,10 @@
 }
 
 .menu-bar.elementary .navbar-nav a.nav-item.nav-link.bottom-active {
-  background-color: #F2CD12;
+  background-color: #f2cd12;
   border-radius: 5px;
   color: white !important;
 }
-
 
 .menu-bar.kindergarten .navbar-nav .nav-item {
   color: #7a7a7a;
@@ -780,7 +795,7 @@
 /* Section eksul */
 .eskul {
   height: 400px;
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
 }
 
 .eskul .box-litle {
@@ -792,7 +807,7 @@
 
 .eskul {
   height: 400px;
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
 }
 
 .eskul .owl-carousel .owl-nav button.owl-prev,
@@ -837,7 +852,7 @@
   width: 60px;
   height: 60px;
   border-radius: 40px;
-  background-color: #A9DCDB;
+  background-color: #a9dcdb;
 }
 
 .eskul .box-big .box-content .text-icon .icon i {
@@ -863,7 +878,7 @@
 }
 
 .eskul .box-litle:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -892,7 +907,7 @@
 }
 
 .eskul .box-litle .box-text span:before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 2px;
   width: 100px;
@@ -1012,15 +1027,6 @@
   top: -5px;
   left: 0;
   right: -5px;
-}
-
-
-
-.galerry.elementary .tab-gallery .tab-content .box-img:before {
-  top: -5px;
-  left: 0px;
-  right: -5px;
-  bottom: 0;
 }
 
 .galerry .tab-gallery .tab-content .box-img::after {
@@ -1233,7 +1239,7 @@
 /* End Section ourpatner */
 /* Section information */
 .information {
-  background-image: url(../image/kindergarten/Information/big.jpg)
+  background-image: url(../image/kindergarten/Information/big.jpg);
 }
 
 .box-little {
@@ -1253,7 +1259,7 @@
 }
 
 .information .box-little:before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1277,7 +1283,7 @@
 }
 
 .information .box-little .content span:before {
-  content: '';
+  content: "";
   width: 80px;
   height: 1px;
   margin-right: 10px;
@@ -1311,7 +1317,7 @@
 }
 
 .information .owl-carousel .box-big.bg-blue {
-  background-color: #448AFF;
+  background-color: #448aff;
 }
 
 .information .owl-carousel .box-big .content {
@@ -1656,18 +1662,18 @@
 /*End Section content */
 /* Section achievement */
 .achievement {
-  background-image: url(../image/kindergarten/achievement/big.jpg)
+  background-image: url(../image/kindergarten/achievement/big.jpg);
 }
 
 .achievement .box-little {
-  background-color: #5266C6;
+  background-color: #5266c6;
   background-image: none;
 }
 
 .achievement {
   height: 500px;
   background-size: 85%;
-  background-color: #F4F5FC;
+  background-color: #f4f5fc;
 }
 
 .achievement .box-little {
@@ -1676,7 +1682,6 @@
   position: relative;
   background-size: 95%;
 }
-
 
 .achievement .box-little .content {
   width: 80%;
@@ -1694,7 +1699,7 @@
 }
 
 .achievement .box-little .content span:before {
-  content: '';
+  content: "";
   width: 80px;
   height: 1px;
   margin-right: 10px;
@@ -1708,7 +1713,6 @@
   margin-bottom: 15px;
   margin-left: 30px;
 }
-
 
 .achievement .box-little .content p {
   font-size: 24px;
@@ -1761,14 +1765,14 @@
 
 .achievement .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots span {
-  background: #5266C6;
+  background: #5266c6;
   width: 30px;
 }
 
 .achievement .owl-theme .owl-dots .owl-dot span {
   margin: 5px 3px;
   background: white;
-  border: 1px solid #5266C6;
+  border: 1px solid #5266c6;
 }
 
 /* End Section achievement */
@@ -1786,8 +1790,8 @@
   float: left;
   width: 35px;
   height: 35px;
-  background-color: #5266C6;
-  border: 3px solid #E4FB17;
+  background-color: #5266c6;
+  border: 3px solid #e4fb17;
   border-radius: 20px;
 }
 
@@ -1795,12 +1799,12 @@
 /* section eskul */
 .eskul.mobile {
   height: 400px;
-  background-color: #F2F3F5;
+  background-color: #f2f3f5;
   display: none;
 }
 
 .eskul.junior .box-litle {
-  background-color: #5266C6;
+  background-color: #5266c6;
   background-image: none;
   height: 400px;
   border-top-left-radius: 40px;
@@ -1813,12 +1817,12 @@
 
 .eskul.junior .owl-carousel .owl-nav button.owl-prev,
 .eskul.junior .owl-carousel .owl-nav button.owl-next {
-  background-color: #4A4444 !important;
+  background-color: #4a4444 !important;
   cursor: pointer;
 }
 
 .eskul.junior .owl-carousel .owl-nav button:hover {
-  background-color: #5266C6 !important;
+  background-color: #5266c6 !important;
   outline: none;
 }
 
@@ -1830,7 +1834,7 @@
 }
 
 .galerry.junior .tab-gallery .nav li.nav-item .nav-link.active {
-  background-color: #5266C6;
+  background-color: #5266c6;
   padding: 10px 0;
 }
 
@@ -1840,14 +1844,14 @@
 }
 
 .galerry.junior .tab-gallery .nav li.nav-item {
-  border: 1px solid #5266C6;
+  border: 1px solid #5266c6;
 }
 
 /* End section gallery */
 /* section career */
 .career.junior {
   background-image: none;
-  background-color: #5266C6;
+  background-color: #5266c6;
 }
 
 .career.junior .cirle-paragraf .circle {
@@ -1907,7 +1911,7 @@
   background-color: white;
   min-width: 180px;
   margin-right: 10px;
-  border: 1px solid #5266C6;
+  border: 1px solid #5266c6;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -1926,7 +1930,7 @@
 }
 
 .student-activitas .tab-gallery .nav li.nav-item .nav-link.active {
-  background-color: #5266C6;
+  background-color: #5266c6;
   padding: 10px 0;
   color: white;
 }
@@ -1958,7 +1962,7 @@
 /* sectio nquotes */
 .quotes.junior {
   background-image: none;
-  background-color: #5266C6;
+  background-color: #5266c6;
 }
 
 /* End sectio quotes */
@@ -1969,7 +1973,7 @@
 /*---Page Elementary */
 /* section logo */
 .logo.elementary .button {
-  background-color: #B6BD39;
+  background-color: #b6bd39;
 }
 
 .logo.elementary .button:hover {
@@ -2009,7 +2013,7 @@
 }
 
 .eskul.elementary .owl-carousel .owl-nav button {
-  background-color: #4A4444 !important;
+  background-color: #4a4444 !important;
   outline: none;
 }
 
@@ -2056,17 +2060,21 @@
 }
 
 .galerry.elementary .tab-gallery .nav li.nav-item .nav-link.active {
-  background-color: #7DBCA5;
+  background-color: #7dbca5;
   padding: 10px 0;
 }
 
 .galerry.elementary .tab-gallery .nav li.nav-item {
-  border: 1px solid #7DBCA5;
+  border: 1px solid #7dbca5;
 }
 
 .galerry.elementary .tab-gallery .tab-content .box-img:before {
   background-color: rgba(125, 188, 165, 0.7);
   border: none;
+  top: -5px;
+  left: 0px;
+  right: -5px;
+  bottom: 0;
 }
 
 /* End section gallery */
@@ -2095,7 +2103,7 @@
 /* section career */
 .career.elementary {
   background-image: none;
-  background-color: #7DBCA5;
+  background-color: #7dbca5;
 }
 
 .career.elementary .cirle-paragraf .circle {
