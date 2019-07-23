@@ -1,6 +1,10 @@
 /* Responsive */
 @media (min-width: 320px) and (max-width: 575px) {
 
+    .head-office {
+        height: auto;
+    }
+
     /* ---Page Index 320 */
     /* section menu */
     .menu-bar.index .navbar img {
